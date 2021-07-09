@@ -1,4 +1,4 @@
-package com.kingo.voceslol
+package com.kingo.vosesitaslolsito
 
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking

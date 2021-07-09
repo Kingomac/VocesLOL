@@ -1,4 +1,4 @@
-package com.kingo.voceslol
+package com.kingo.vosesitaslolsito
 
 data class SoundsData(val key: String, val links: Array<String>) {
     override fun equals(other: Any?): Boolean {

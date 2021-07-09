@@ -1,23 +1,14 @@
-package com.kingo.voceslol
+package com.kingo.vosesitaslolsito
 
-import android.app.DownloadManager
-import android.content.Context
 import android.content.pm.PackageManager
-import android.media.AudioAttributes
-import android.media.MediaPlayer
-import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Environment
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Button
-import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.annotation.RequiresApi
-import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_voices.*
 import java.io.InputStream
@@ -31,6 +22,7 @@ class VoicesActivity() : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_voices)
 
+        //viewPager.isUserInputEnabled = false
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         var champ: String = try {
@@ -38,7 +30,6 @@ class VoicesActivity() : AppCompatActivity() {
         } catch (e: Exception) {
             throw Exception("Cagaaaaaaaaaaste")
         }
-        Toast.makeText(applicationContext, "Champ: $champ", Toast.LENGTH_LONG).show()
         title = champ;
         val inputStream: InputStream = resources.openRawResource(
             resources.getIdentifier(
@@ -49,7 +40,7 @@ class VoicesActivity() : AppCompatActivity() {
         )
         val buffered = inputStream.bufferedReader()
         val urls: Array<SoundsData> = JsonLinksParser.parseToArray(buffered.readText())
-        val adapter = SoundsViewPagerAdapter(this, urls)
+        val adapter = SoundsViewPagerAdapter(this, urls, champ)
         viewPager.adapter = adapter
         Log.e("URLS:", urls.toString())
 
@@ -87,33 +78,5 @@ class VoicesActivity() : AppCompatActivity() {
                 }
             }
         }
-    }
-
-    private fun downloadSound(url: String, context: Context) {
-        val request = DownloadManager.Request(Uri.parse(url))
-        request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI or DownloadManager.Request.NETWORK_MOBILE)
-        request.setTitle("Download")
-        request.setDescription("The file is downloading...")
-
-        request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE)
-        val filename = "tengomiedo.mp3"
-        request.setDestinationInExternalFilesDir(
-            this,
-            Environment.DIRECTORY_DOWNLOADS,
-            "tengomiedo.mp3"
-        )
-
-        val manager = context.getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
-        manager.enqueue(request)
-
-    }
-
-    private fun playyy(uri: Uri) {
-        val player = MediaPlayer.create(this, uri)
-        player.start()
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
     }
 }

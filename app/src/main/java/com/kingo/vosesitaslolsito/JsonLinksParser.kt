@@ -1,7 +1,4 @@
-package com.kingo.voceslol
-
-import android.util.Log
-import java.io.File
+package com.kingo.vosesitaslolsito
 
 class JsonLinksParser {
     companion object {
