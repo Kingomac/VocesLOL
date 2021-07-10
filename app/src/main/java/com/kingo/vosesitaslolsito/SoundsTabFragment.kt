@@ -1,5 +1,6 @@
 package com.kingo.vosesitaslolsito
 
+import android.app.AlertDialog
 import android.app.DownloadManager
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -9,11 +10,14 @@ import android.media.AudioAttributes
 import android.media.MediaPlayer
 import android.net.Uri
 import android.os.Bundle
+import android.os.Environment
+import android.provider.MediaStore
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.fragment_sounds_tab.*
 import java.io.File
@@ -29,6 +33,7 @@ import java.net.URLDecoder
  */
 class SoundsTabFragment : Fragment() {
 
+    private var SOUNDS_PATH: Uri? = null
     private var player: MediaPlayer? = null
     private var downloadId: Long = -1
     private var fileUri: Uri? = null
@@ -49,21 +54,40 @@ class SoundsTabFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        SOUNDS_PATH = Uri.fromFile(context?.getExternalFilesDir(null))
         arguments?.takeIf { it.containsKey(SoundsViewPagerAdapter.ARG_LINKS) }?.apply {
                     val links = getStringArray(SoundsViewPagerAdapter.ARG_LINKS)
                     val champ = getString(SoundsViewPagerAdapter.ARG_CHAMP)
                     links?.forEach { url ->
                         val btn = Button(context)
                         btn.text = URLDecoder.decode(getFileNameWithoutExtension(url), java.nio.charset.StandardCharsets.UTF_8.toString())
+                        val file = File(SOUNDS_PATH?.path, "/$champ/${getFileNameWithExtension(url)}")
                         btn.setOnClickListener { v ->
-                            val file = File(activity?.getExternalFilesDir(null), "/$champ/${getFileNameWithExtension(url)}")
                             if(file.exists()) {
-                                player = MediaPlayer.create(activity?.applicationContext, Uri.fromFile(file))
+                                Toast.makeText(context, "File exists", Toast.LENGTH_SHORT).show()
+                                player = MediaPlayer.create(context, Uri.fromFile(file))
                                 player?.setAudioAttributes(AudioAttributes.Builder().setContentType(AudioAttributes.CONTENT_TYPE_MUSIC).setUsage(AudioAttributes.USAGE_MEDIA).build())
                                 player?.start()
                             } else {
-                                downloadbegin(Uri.parse(url),file)
+                                Toast.makeText(context, "File does not exists", Toast.LENGTH_SHORT).show()
+                                //downloadbegin(Uri.parse(url),"/$champ/${getFileNameWithExtension(url)}")
+                                downloadbegin(Uri.parse(url), file)
                             }
+                        }
+                        btn.setOnLongClickListener {
+                            if(file.exists()) {
+                                Toast.makeText(context, "File exists", Toast.LENGTH_SHORT).show()
+                            } else {
+                                AlertDialog.Builder(context).setTitle("File does not exists").setMessage("File does not exists").show()
+                            }
+                            val sendIntent = Intent().apply {
+                                action = Intent.ACTION_SEND
+                                type = "audio/mp3"
+                                putExtra(Intent.EXTRA_STREAM, Uri.fromFile(file))
+                            }
+                            val shareIntent = Intent.createChooser(sendIntent, null)
+                            startActivity(shareIntent)
+                            true
                         }
                         linearlayout.addView(btn)
                     }
@@ -73,19 +97,36 @@ class SoundsTabFragment : Fragment() {
     private fun getFileNameWithExtension(path: String) = path.split('/').last()
     private fun getFileNameWithoutExtension(path: String) = getFileNameWithExtension(path).split('.').first()
 
-    private fun downloadbegin(source: Uri, destiny: File) {
+    private fun downloadbegin(source: Uri, fileChild: String) {
         val req =
             DownloadManager.Request(source)
                 .setTitle(getFileNameWithoutExtension(source.toString()))
                 .setDescription(activity?.getString(R.string.app_name))
                 .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE)
-                .setDestinationUri(Uri.fromFile(destiny))
+                .setDestinationUri(Uri.parse(SOUNDS_PATH?.path + fileChild))
+                //.setDestinationInExternalPublicDir(SOUNDS_PATH?.path, fileChild)
                 .setRequiresCharging(false)
                 .setAllowedOverMetered(true)
                 .setAllowedOverRoaming(true)
         val manager = activity?.getSystemService(AppCompatActivity.DOWNLOAD_SERVICE) as DownloadManager
         downloadId = manager.enqueue(req)
-        fileUri = Uri.fromFile(destiny)
+        fileUri = Uri.parse(SOUNDS_PATH?.path + fileChild)
+    }
+
+    private fun downloadbegin(source: Uri, file: File) {
+        val req =
+            DownloadManager.Request(source)
+                .setTitle(getFileNameWithoutExtension(source.toString()))
+                .setDescription(activity?.getString(R.string.app_name))
+                .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE)
+                .setDestinationUri(Uri.fromFile(file))
+                //.setDestinationInExternalPublicDir(SOUNDS_PATH?.path, fileChild)
+                .setRequiresCharging(false)
+                .setAllowedOverMetered(true)
+                .setAllowedOverRoaming(true)
+        val manager = activity?.getSystemService(AppCompatActivity.DOWNLOAD_SERVICE) as DownloadManager
+        downloadId = manager.enqueue(req)
+        fileUri = Uri.fromFile(file)
     }
 
     inner class CustomBroadcastReceiver : BroadcastReceiver() {
