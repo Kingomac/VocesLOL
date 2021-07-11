@@ -12,6 +12,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.os.Environment
 import android.provider.MediaStore
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -19,6 +20,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.FileProvider
 import kotlinx.android.synthetic.main.fragment_sounds_tab.*
 import java.io.File
 import java.net.URLDecoder
@@ -54,7 +56,9 @@ class SoundsTabFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        SOUNDS_PATH = Uri.fromFile(context?.getExternalFilesDir(null))
+        //SOUNDS_PATH = Uri.fromFile(context?.getExternalFilesDir(null))
+        //SOUNDS_PATH = Uri.parse("file://" + MediaStore.Audio.Media.EXTERNAL_CONTENT_URI.path)
+        SOUNDS_PATH = Uri.fromFile(activity?.externalMediaDirs?.get(0))
         arguments?.takeIf { it.containsKey(SoundsViewPagerAdapter.ARG_LINKS) }?.apply {
                     val links = getStringArray(SoundsViewPagerAdapter.ARG_LINKS)
                     val champ = getString(SoundsViewPagerAdapter.ARG_CHAMP)
@@ -64,30 +68,45 @@ class SoundsTabFragment : Fragment() {
                         val file = File(SOUNDS_PATH?.path, "/$champ/${getFileNameWithExtension(url)}")
                         btn.setOnClickListener { v ->
                             if(file.exists()) {
-                                Toast.makeText(context, "File exists", Toast.LENGTH_SHORT).show()
+                                Log.i("SHARE", "File exists")
                                 player = MediaPlayer.create(context, Uri.fromFile(file))
                                 player?.setAudioAttributes(AudioAttributes.Builder().setContentType(AudioAttributes.CONTENT_TYPE_MUSIC).setUsage(AudioAttributes.USAGE_MEDIA).build())
                                 player?.start()
                             } else {
-                                Toast.makeText(context, "File does not exists", Toast.LENGTH_SHORT).show()
+                                Log.i("SHARE", "File does not exist")
                                 //downloadbegin(Uri.parse(url),"/$champ/${getFileNameWithExtension(url)}")
                                 downloadbegin(Uri.parse(url), file)
                             }
                         }
                         btn.setOnLongClickListener {
                             if(file.exists()) {
-                                Toast.makeText(context, "File exists", Toast.LENGTH_SHORT).show()
+                                Log.i("SHARE", "File exists")
                             } else {
-                                AlertDialog.Builder(context).setTitle("File does not exists").setMessage("File does not exists").show()
+                                Log.i("SHARE", "File does not exist")
                             }
+
+                            val uri = context?.let { it1 -> FileProvider.getUriForFile(it1, context?.applicationContext?.packageName + ".provider", file) }
+
                             val sendIntent = Intent().apply {
                                 action = Intent.ACTION_SEND
                                 type = "audio/mp3"
-                                putExtra(Intent.EXTRA_STREAM, Uri.fromFile(file))
+                                putExtra(Intent.EXTRA_STREAM, uri)
+                                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
                             }
                             val shareIntent = Intent.createChooser(sendIntent, null)
+
+
+                            /*val sendIntent = Intent().apply {
+                                action = Intent.ACTION_SEND
+                                type = "text/plain"
+                            }
+
+                             */
                             startActivity(shareIntent)
+
                             true
+
+
                         }
                         linearlayout.addView(btn)
                     }
@@ -103,8 +122,8 @@ class SoundsTabFragment : Fragment() {
                 .setTitle(getFileNameWithoutExtension(source.toString()))
                 .setDescription(activity?.getString(R.string.app_name))
                 .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE)
-                .setDestinationUri(Uri.parse(SOUNDS_PATH?.path + fileChild))
-                //.setDestinationInExternalPublicDir(SOUNDS_PATH?.path, fileChild)
+                //.setDestinationUri(Uri.parse(SOUNDS_PATH?.path + fileChild))
+                .setDestinationInExternalPublicDir(SOUNDS_PATH?.path, fileChild)
                 .setRequiresCharging(false)
                 .setAllowedOverMetered(true)
                 .setAllowedOverRoaming(true)
