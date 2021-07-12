@@ -35,11 +35,18 @@ import java.net.URLDecoder
  */
 class SoundsTabFragment : Fragment() {
 
+    enum class DownloadCompletedAction {
+        PLAY_FILE,
+        SHARE_FILE
+    }
+
     private var SOUNDS_PATH: Uri? = null
     private var player: MediaPlayer? = null
     private var downloadId: Long = -1
     private var fileUri: Uri? = null
     private val onDownloadComplete = CustomBroadcastReceiver()
+    private var onDownloadCompleteAction = DownloadCompletedAction.PLAY_FILE
+    private var shareIntent: Intent? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -75,15 +82,11 @@ class SoundsTabFragment : Fragment() {
                             } else {
                                 Log.i("SHARE", "File does not exist")
                                 //downloadbegin(Uri.parse(url),"/$champ/${getFileNameWithExtension(url)}")
+                                onDownloadCompleteAction = DownloadCompletedAction.PLAY_FILE
                                 downloadbegin(Uri.parse(url), file)
                             }
                         }
                         btn.setOnLongClickListener {
-                            if(file.exists()) {
-                                Log.i("SHARE", "File exists")
-                            } else {
-                                Log.i("SHARE", "File does not exist")
-                            }
 
                             val uri = context?.let { it1 -> FileProvider.getUriForFile(it1, context?.applicationContext?.packageName + ".provider", file) }
 
@@ -93,16 +96,14 @@ class SoundsTabFragment : Fragment() {
                                 putExtra(Intent.EXTRA_STREAM, uri)
                                 addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
                             }
-                            val shareIntent = Intent.createChooser(sendIntent, null)
+                            shareIntent = Intent.createChooser(sendIntent, null)
 
-
-                            /*val sendIntent = Intent().apply {
-                                action = Intent.ACTION_SEND
-                                type = "text/plain"
+                            if(file.exists()) {
+                                startActivity(shareIntent)
+                            } else {
+                                onDownloadCompleteAction = DownloadCompletedAction.SHARE_FILE
+                                downloadbegin(Uri.parse(url), file)
                             }
-
-                             */
-                            startActivity(shareIntent)
 
                             true
 
@@ -152,9 +153,17 @@ class SoundsTabFragment : Fragment() {
         override fun onReceive(context: Context?, intent: Intent?) {
             val id = intent?.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1)
             if (downloadId == id) {
-                player = MediaPlayer.create(context, fileUri)
-                player?.setAudioAttributes(AudioAttributes.Builder().setContentType(AudioAttributes.CONTENT_TYPE_MUSIC).setUsage(AudioAttributes.USAGE_MEDIA).build())
-                player?.start()
+                when(onDownloadCompleteAction) {
+                    DownloadCompletedAction.PLAY_FILE -> {
+                        player = MediaPlayer.create(context, fileUri)
+                        player?.setAudioAttributes(AudioAttributes.Builder().setContentType(AudioAttributes.CONTENT_TYPE_MUSIC).setUsage(AudioAttributes.USAGE_MEDIA).build())
+                        player?.start()
+                    }
+                    DownloadCompletedAction.SHARE_FILE -> {
+                        startActivity(shareIntent)
+                    }
+                }
+
             }
         }
     }
