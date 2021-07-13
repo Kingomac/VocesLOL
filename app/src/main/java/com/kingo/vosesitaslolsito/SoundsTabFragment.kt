@@ -6,6 +6,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
+import android.graphics.Color
 import android.media.AudioAttributes
 import android.media.MediaPlayer
 import android.net.Uri
@@ -46,6 +47,7 @@ class SoundsTabFragment : Fragment() {
     private var fileUri: Uri? = null
     private val onDownloadComplete = CustomBroadcastReceiver()
     private var onDownloadCompleteAction = DownloadCompletedAction.PLAY_FILE
+    private var buttonToPaint: Button? = null
     private var shareIntent: Intent? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -73,6 +75,7 @@ class SoundsTabFragment : Fragment() {
                         val btn = Button(context)
                         btn.text = URLDecoder.decode(getFileNameWithoutExtension(url), java.nio.charset.StandardCharsets.UTF_8.toString())
                         val file = File(SOUNDS_PATH?.path, "/$champ/${getFileNameWithExtension(url)}")
+                        if(file.exists()) paintButtonAsDownloaded(btn)
                         btn.setOnClickListener { v ->
                             if(file.exists()) {
                                 Log.i("SHARE", "File exists")
@@ -83,6 +86,7 @@ class SoundsTabFragment : Fragment() {
                                 Log.i("SHARE", "File does not exist")
                                 //downloadbegin(Uri.parse(url),"/$champ/${getFileNameWithExtension(url)}")
                                 onDownloadCompleteAction = DownloadCompletedAction.PLAY_FILE
+                                buttonToPaint = btn
                                 downloadbegin(Uri.parse(url), file)
                             }
                         }
@@ -102,6 +106,7 @@ class SoundsTabFragment : Fragment() {
                                 startActivity(shareIntent)
                             } else {
                                 onDownloadCompleteAction = DownloadCompletedAction.SHARE_FILE
+                                buttonToPaint = btn
                                 downloadbegin(Uri.parse(url), file)
                             }
 
@@ -111,6 +116,15 @@ class SoundsTabFragment : Fragment() {
                         }
                         linearlayout.addView(btn)
                     }
+        }
+    }
+
+    private fun paintButtonAsDownloaded(btn: Button) {
+        btn.backgroundTintList = context?.resources?.getColorStateList(R.color.purple_500, context?.theme)
+        context?.resources?.getColor(R.color.white, context?.theme)?.let {
+            btn.setTextColor(
+                it
+            )
         }
     }
 
@@ -152,6 +166,7 @@ class SoundsTabFragment : Fragment() {
     inner class CustomBroadcastReceiver : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
             val id = intent?.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1)
+            buttonToPaint?.let { paintButtonAsDownloaded(it) }
             if (downloadId == id) {
                 when(onDownloadCompleteAction) {
                     DownloadCompletedAction.PLAY_FILE -> {
