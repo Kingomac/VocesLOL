@@ -42,7 +42,6 @@ class SoundsTabFragment : Fragment() {
     private var buttonToPaint: Button? = null
     private var shareIntent: Intent? = null
     private lateinit var binding: FragmentSoundsTabBinding
-    private lateinit var links: Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -75,19 +74,11 @@ class SoundsTabFragment : Fragment() {
                 if (file.exists()) paintButtonAsDownloaded(btn)
                 btn.setOnClickListener { v ->
                     if (file.exists()) {
-                        Log.i("SHARE", "File exists")
-                        player = MediaPlayer.create(context, Uri.fromFile(file))
-                        player?.setAudioAttributes(
-                            AudioAttributes.Builder().setContentType(
-                                AudioAttributes.CONTENT_TYPE_MUSIC
-                            ).setUsage(AudioAttributes.USAGE_MEDIA).build()
-                        )
-                        player?.setOnCompletionListener {
-                            it.release()
-                        }
-                        player?.start()
+                        Log.i("PLAY", "File exists")
+                        play(Uri.fromFile(file))
+
                     } else {
-                        Log.i("SHARE", "File does not exist")
+                        Log.i("PLAY", "File does not exist")
                         //downloadbegin(Uri.parse(url),"/$champ/${getFileNameWithExtension(url)}")
                         onDownloadCompleteAction =
                             SoundsTabFragment.DownloadCompletedAction.PLAY_FILE
@@ -126,6 +117,24 @@ class SoundsTabFragment : Fragment() {
                 binding.linearlayout.addView(btn)
             }
         }
+    }
+
+    private fun play(uri: Uri) {
+        player?.let {
+            it.stop()
+            it.release()
+        }
+        player = MediaPlayer.create(context, uri)
+        player?.setAudioAttributes(
+            AudioAttributes.Builder().setContentType(
+                AudioAttributes.CONTENT_TYPE_MUSIC
+            ).setUsage(AudioAttributes.USAGE_MEDIA).build()
+        )
+        player?.setOnCompletionListener {
+            it.release()
+            player = null
+        }
+        player?.start()
     }
 
     private fun paintButtonAsDownloaded(btn: Button) {
@@ -179,12 +188,9 @@ class SoundsTabFragment : Fragment() {
             if (downloadId == id) {
                 when(onDownloadCompleteAction) {
                     SoundsTabFragment.DownloadCompletedAction.PLAY_FILE -> {
-                        player = MediaPlayer.create(context, fileUri)
-                        player?.setAudioAttributes(AudioAttributes.Builder().setContentType(AudioAttributes.CONTENT_TYPE_MUSIC).setUsage(AudioAttributes.USAGE_MEDIA).build())
-                        player?.setOnCompletionListener {
-                            it.release()
+                        fileUri?.let {
+                            play(it)
                         }
-                        player?.start()
                     }
                     SoundsTabFragment.DownloadCompletedAction.SHARE_FILE -> {
                         startActivity(shareIntent)
@@ -207,7 +213,6 @@ class SoundsTabFragment : Fragment() {
          *
          * @return A new instance of fragment SoundsTabFragment.
          */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance() = SoundsTabFragment()
     }
