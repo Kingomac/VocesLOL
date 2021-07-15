@@ -1,36 +1,32 @@
 package com.kingo.vosesitaslolsito
 
-import android.content.pm.PackageManager
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
-import androidx.annotation.RequiresApi
 import com.google.android.material.tabs.TabLayoutMediator
-import kotlinx.android.synthetic.main.activity_voices.*
+import com.kingo.vosesitaslolsito.databinding.ActivityVoicesBinding
 import java.io.InputStream
 
-class VoicesActivity() : AppCompatActivity() {
+class VoicesActivity : AppCompatActivity() {
 
-    private val STORAGE_PERMISSION_CODE: Int = 1000
+    private lateinit var binding: ActivityVoicesBinding
 
-    @RequiresApi(Build.VERSION_CODES.R)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_voices)
+        binding = ActivityVoicesBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
 
-        //viewPager.isUserInputEnabled = false
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        var champ: String = try {
+        val champ: String = try {
             intent.getStringExtra("champ").toString()
         } catch (e: Exception) {
             throw Exception("Cagaaaaaaaaaaste")
         }
-        title = champ;
+        title = champ[0].uppercase() + champ.substring(1)
         val inputStream: InputStream = resources.openRawResource(
             resources.getIdentifier(
                 champ.lowercase(),
@@ -41,11 +37,11 @@ class VoicesActivity() : AppCompatActivity() {
         val buffered = inputStream.bufferedReader()
         val urls: Array<SoundsData> = JsonLinksParser.parseToArray(buffered.readText())
         val adapter = SoundsViewPagerAdapter(this, urls, champ)
-        viewPager.adapter = adapter
+        binding.viewPager.adapter = adapter
         Log.e("URLS:", urls.toString())
 
         var i = 0
-        TabLayoutMediator(tablayout, viewPager) { tab, position ->
+        TabLayoutMediator(binding.tablayout, binding.viewPager) { tab, position ->
             tab.text = urls[i].key
             i++
         }.attach()
@@ -62,21 +58,4 @@ class VoicesActivity() : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean = true
-
-    override fun onRequestPermissionsResult(
-        requestCode: Int,
-        permissions: Array<out String>,
-        grantResults: IntArray
-    ) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        when (requestCode) {
-            STORAGE_PERMISSION_CODE -> {
-                if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    Toast.makeText(this, "Reload the app please", Toast.LENGTH_LONG).show()
-                } else {
-                    Toast.makeText(this, "No me diste permisooooooo", Toast.LENGTH_LONG).show()
-                }
-            }
-        }
-    }
 }

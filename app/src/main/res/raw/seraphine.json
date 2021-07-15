@@ -1,0 +1,168 @@
+{
+  "attack": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral13.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral14.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral15.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral16.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral17.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Attack2DGeneral9.mp3"
+  ],
+  "dance": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Dance3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/DanceResponse3DGeneral.mp3"
+  ],
+  "death": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Death3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Death3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Death3D3.mp3"
+  ],
+  "firstencounter": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DAzir.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DCamille.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DEkko.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DGeneral3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DGeneral4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DGeneral5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DJhin.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DJinx.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DLux.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DNeeko.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DSona.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/FirstEncounter3DVi.mp3"
+  ],
+  "joke": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Joke3DGeneral.mp3"
+  ],
+  "kill": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Kill3DFirst.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Kill3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Kill3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Kill3DGeneral3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Kill3DGeneral4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Kill3DGeneral5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Kill3DJhin.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Kill3DPentakill.mp3"
+  ],
+  "laugh": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Laugh3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Laugh3DGeneral2.mp3"
+  ],
+  "lowhealth": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/LowHealth2D.mp3"
+  ],
+  "movefirst": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DFirst.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DFirst2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DFirst3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DFirst4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DFirst5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DFirst6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DFirst7.mp3"
+  ],
+  "movelong": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DLong.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DLong10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DLong11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DLong12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DLong2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DLong3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DLong4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DLong5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DLong6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DLong7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DLong8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DLong9.mp3"
+  ],
+  "movestandard": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard13.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard14.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard15.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard16.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard17.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard18.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard19.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard20.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard21.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard22.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard23.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard24.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard25.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard26.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Move2DStandard9.mp3"
+  ],
+  "ping": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Ping2DAssistMe.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Ping2DDanger.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Ping2DMissing.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Ping2DOnMyWay.mp3"
+  ],
+  "recall": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Recall3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Recall3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Recall3DGeneral3.mp3"
+  ],
+  "respawn": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Respawn2DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Respawn2DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Respawn2DGeneral3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Respawn2DGeneral4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Respawn2DGeneral5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/Respawn2DGeneral6.mp3"
+  ],
+  "basic": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineBasicAttack.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineBasicAttack2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineBasicAttack22.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineBasicAttack23.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineBasicAttack24.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineBasicAttack3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineBasicAttack4.mp3"
+  ],
+  "ability": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineECast.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineECast2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineECast3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineECastEcho.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineEMissile.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineEMissile2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineQCast.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineQCast2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineQCast3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineQCast4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineQCast5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineQCastEcho.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineQCastEcho2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineR.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineR2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineWCast.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineWCast2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineWCast3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineWCastEcho.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineWCastEcho2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineWCastEcho3.mp3"
+  ]
+}
