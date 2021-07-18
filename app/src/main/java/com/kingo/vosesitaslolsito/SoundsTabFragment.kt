@@ -1,5 +1,6 @@
 package com.kingo.vosesitaslolsito
 
+import android.app.AlertDialog
 import android.app.DownloadManager
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -7,6 +8,8 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.media.AudioAttributes
 import android.media.MediaPlayer
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
@@ -41,11 +44,15 @@ class SoundsTabFragment : Fragment() {
     private var onDownloadCompleteAction = DownloadCompletedAction.PLAY_FILE
     private var buttonToPaint: Button? = null
     private var shareIntent: Intent? = null
+    private var isDownloading = false
     private lateinit var binding: FragmentSoundsTabBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        activity?.registerReceiver(onDownloadComplete, IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE))
+        activity?.registerReceiver(
+            onDownloadComplete,
+            IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE)
+        )
     }
 
     override fun onCreateView(
@@ -72,22 +79,22 @@ class SoundsTabFragment : Fragment() {
                 )
                 val file = File(SOUNDS_PATH?.path, "/$champ/${getFileNameWithExtension(url)}")
                 if (file.exists()) paintButtonAsDownloaded(btn)
-                btn.setOnClickListener { v ->
+                btn.setOnClickListener { _ ->
                     if (file.exists()) {
                         Log.i("PLAY", "File exists")
                         play(Uri.fromFile(file))
 
                     } else {
                         Log.i("PLAY", "File does not exist")
-                        //downloadbegin(Uri.parse(url),"/$champ/${getFileNameWithExtension(url)}")
-                        onDownloadCompleteAction =
-                            SoundsTabFragment.DownloadCompletedAction.PLAY_FILE
-                        buttonToPaint = btn
-                        downloadbegin(Uri.parse(url), file)
+                        if (canDownload()) {
+                            onDownloadCompleteAction =
+                                SoundsTabFragment.DownloadCompletedAction.PLAY_FILE
+                            buttonToPaint = btn
+                            downloadbegin(Uri.parse(url), file)
+                        }
                     }
                 }
                 btn.setOnLongClickListener {
-
                     val uri = context?.let { it1 ->
                         FileProvider.getUriForFile(
                             it1,
@@ -95,7 +102,6 @@ class SoundsTabFragment : Fragment() {
                             file
                         )
                     }
-
                     val sendIntent = Intent().apply {
                         action = Intent.ACTION_SEND
                         type = "audio/mp3"
@@ -103,10 +109,9 @@ class SoundsTabFragment : Fragment() {
                         addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
                     }
                     shareIntent = Intent.createChooser(sendIntent, null)
-
                     if (file.exists()) {
                         startActivity(shareIntent)
-                    } else {
+                    } else if (canDownload()) {
                         onDownloadCompleteAction =
                             SoundsTabFragment.DownloadCompletedAction.SHARE_FILE
                         buttonToPaint = btn
@@ -117,6 +122,35 @@ class SoundsTabFragment : Fragment() {
                 binding.linearlayout.addView(btn)
             }
         }
+    }
+
+    private fun canDownload(): Boolean {
+        if (isDownloading) {
+            AlertDialog.Builder(context).setTitle("Ya estás descargando algo")
+                .setMessage("Deja esa Q Penta Yi, pero recuerda, la táctica maestra es no rendirse")
+                .setNeutralButton("Me cago en tu vieja") { v, _ -> v.dismiss() }
+                .create().show()
+            return false
+        }
+        val cm = context?.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val netInfo = cm.getNetworkCapabilities(cm.activeNetwork)
+        var netAvailable = false
+        netInfo?.let {
+            netAvailable = when {
+                it.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) -> true
+                it.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) -> true
+                it.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) -> true
+                else -> false
+            }
+        }
+        if (!netAvailable) {
+            AlertDialog.Builder(context).setTitle("Moroooooso")
+                .setMessage("Paga el internet moroooooooooosooooooo")
+                .setNeutralButton("Naaah 1000 de ping va finísimo") { v, _ -> v.dismiss() }
+                .create().show()
+            return false
+        }
+        return true
     }
 
     private fun play(uri: Uri) {
@@ -138,7 +172,8 @@ class SoundsTabFragment : Fragment() {
     }
 
     private fun paintButtonAsDownloaded(btn: Button) {
-        btn.backgroundTintList = context?.resources?.getColorStateList(R.color.purple_500, context?.theme)
+        btn.backgroundTintList =
+            context?.resources?.getColorStateList(R.color.purple_500, context?.theme)
         context?.resources?.getColor(R.color.white, context?.theme)?.let {
             btn.setTextColor(
                 it
@@ -147,7 +182,8 @@ class SoundsTabFragment : Fragment() {
     }
 
     private fun getFileNameWithExtension(path: String) = path.split('/').last()
-    private fun getFileNameWithoutExtension(path: String) = getFileNameWithExtension(path).split('.').first()
+    private fun getFileNameWithoutExtension(path: String) =
+        getFileNameWithExtension(path).split('.').first()
 
     private fun downloadbegin(source: Uri, fileChild: String) {
         val req =
@@ -160,9 +196,11 @@ class SoundsTabFragment : Fragment() {
                 .setRequiresCharging(false)
                 .setAllowedOverMetered(true)
                 .setAllowedOverRoaming(true)
-        val manager = activity?.getSystemService(AppCompatActivity.DOWNLOAD_SERVICE) as DownloadManager
+        val manager =
+            activity?.getSystemService(AppCompatActivity.DOWNLOAD_SERVICE) as DownloadManager
         downloadId = manager.enqueue(req)
         fileUri = Uri.parse(SOUNDS_PATH?.path + fileChild)
+        isDownloading = true
     }
 
     private fun downloadbegin(source: Uri, file: File) {
@@ -176,17 +214,20 @@ class SoundsTabFragment : Fragment() {
                 .setRequiresCharging(false)
                 .setAllowedOverMetered(true)
                 .setAllowedOverRoaming(true)
-        val manager = activity?.getSystemService(AppCompatActivity.DOWNLOAD_SERVICE) as DownloadManager
+        val manager =
+            activity?.getSystemService(AppCompatActivity.DOWNLOAD_SERVICE) as DownloadManager
         downloadId = manager.enqueue(req)
         fileUri = Uri.fromFile(file)
+        isDownloading = true
     }
 
     inner class CustomBroadcastReceiver : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
+            isDownloading = false
             val id = intent?.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1)
             buttonToPaint?.let { paintButtonAsDownloaded(it) }
             if (downloadId == id) {
-                when(onDownloadCompleteAction) {
+                when (onDownloadCompleteAction) {
                     SoundsTabFragment.DownloadCompletedAction.PLAY_FILE -> {
                         fileUri?.let {
                             play(it)

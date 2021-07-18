@@ -1,0 +1,184 @@
+{
+  "basic": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriBasicAttack.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriBasicAttack2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriBasicAttack22.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriBasicAttack23.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriBasicAttack3.mp3"
+  ],
+  "critical": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriCritAttack.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriCritAttack2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriCritAttack3.mp3"
+  ],
+  "foxfire": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriFoxFire.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriFoxFire2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriFoxFire3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriFoxFire4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriFoxFire5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriFoxFire6.mp3"
+  ],
+  "orb": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriOrbofDeception.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriOrbofDeception2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriOrbofDeception3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriOrbofDeception4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriOrbofDeception5.mp3"
+  ],
+  "seduce": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriSeduceMissile.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriSeduceMissile10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriSeduceMissile2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriSeduceMissile3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriSeduceMissile4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriSeduceMissile5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriSeduceMissile6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriSeduceMissile7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriSeduceMissile8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriSeduceMissile9.mp3"
+  ],
+  "tumble": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriTumble.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriTumble2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriTumble3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriTumble4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriTumble5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/AhriTumble6.mp3"
+  ],
+  "attack": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DCassiopeiaSkin09.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral13.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral14.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral15.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral16.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral17.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral18.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral19.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral20.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DGeneral9.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DLilliaSkin01.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DThreshSkin17.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DYasuoSkin35.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Attack2DYoneSkin01.mp3"
+  ],
+  "death": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Death3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Death3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Death3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Death3D4.mp3"
+  ],
+  "firstencounter": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/FirstEncounter3DCassiopeiaSkin09.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/FirstEncounter3DKindredSkin03.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/FirstEncounter3DLilliaSkin01.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/FirstEncounter3DRivenSkin25.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/FirstEncounter3DTeemoSkin25.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/FirstEncounter3DThreshSkin17.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/FirstEncounter3DVayneSkin14.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/FirstEncounter3DYasuoSkin35.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/FirstEncounter3DYoneSkin01.mp3"
+  ],
+  "joke": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Joke3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Joke3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/JokeResponse3DGeneral.mp3"
+  ],
+  "kill": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DCassiopeiaSkin09.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral13.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral14.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DGeneral9.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DKindredSkin03.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DLilliaSkin01.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DPentakill.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DRivenSkin25.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DTeemoSkin25.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DThreshSkin17.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DVayneSkin14.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DYasuoSkin35.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Kill3DYoneSkin01.mp3"
+  ],
+  "laugh": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Laugh3DGeneral.mp3"
+  ],
+  "movefirst": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DFirst.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DFirst2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DFirst3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DFirst4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DFirstAllySpiritBlossom.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DFirstEnemySpiritBlossom.mp3"
+  ],
+  "movelong": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DLong.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DLong2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DLong3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DLong4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DLong5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DLong6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DLong7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DLong8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DLong9.mp3"
+  ],
+  "movestandard": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard13.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard14.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard15.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard16.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard17.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard18.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard19.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard20.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Move2DStandard9.mp3"
+  ],
+  "recall": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Recall3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Recall3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Recall3DGeneral3.mp3"
+  ],
+  "respawn": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Respawn2DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Respawn2DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Respawn2DGeneral3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Respawn2DGeneral4.mp3"
+  ],
+  "taunt": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Taunt3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/Taunt3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ahri_skin_27/TauntResponse3DGeneral.mp3"
+  ]
+}

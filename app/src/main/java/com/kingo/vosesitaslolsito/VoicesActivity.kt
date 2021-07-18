@@ -26,7 +26,7 @@ class VoicesActivity : AppCompatActivity() {
         } catch (e: Exception) {
             throw Exception("Cagaaaaaaaaaaste")
         }
-        title = champ[0].uppercase() + champ.substring(1)
+        title = applicationContext.resources.getString(applicationContext.resources.getIdentifier(champ.lowercase(), "string", packageName))
         val inputStream: InputStream = resources.openRawResource(
             resources.getIdentifier(
                 champ.lowercase(),
@@ -39,11 +39,9 @@ class VoicesActivity : AppCompatActivity() {
         val adapter = SoundsViewPagerAdapter(this, urls, champ)
         binding.viewPager.adapter = adapter
         Log.e("URLS:", urls.toString())
-
-        var i = 0
+        
         TabLayoutMediator(binding.tablayout, binding.viewPager) { tab, position ->
-            tab.text = urls[i].key
-            i++
+            tab.text = urls[position].key
         }.attach()
     }
 

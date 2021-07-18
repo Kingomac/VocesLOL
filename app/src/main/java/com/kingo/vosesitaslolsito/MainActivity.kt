@@ -5,7 +5,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.recyclerview.widget.GridLayoutManager
 import com.kingo.vosesitaslolsito.databinding.ActivityMainBinding
@@ -35,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             Manifest.permission.INTERNET, Manifest.permission.ACCESS_NETWORK_STATE,
             Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE))
         binding.recyclerview.layoutManager = GridLayoutManager(this, 3)
-        val recyclerAdapter = MainRecyclerViewAdapter(Champ.values())
+        val recyclerAdapter = MainRecyclerViewAdapter(Champ.values(), applicationContext)
         recyclerAdapter.setOnClickListener {
             val c = Champ.values()[binding.recyclerview.getChildAdapterPosition(it)]
             val intent = Intent(this, VoicesActivity::class.java)

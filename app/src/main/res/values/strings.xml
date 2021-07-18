@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">Vosesitas del Lolsito</string>
-    <string name="champ_gwen">Gwen</string>
-    <string name="champ_neeko">Neeko</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_test">TestActivity</string>
@@ -13,4 +11,22 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="aatrox">Aatrox</string>
+    <string name="ahri">Ahri</string>
+    <string name="ahri_skin_14">Ahri Guardiana de las Estrellas</string>
+    <string name="ahri_skin_27">Ahri Florecer Espiritual</string>
+    <string name="akali">Akali</string>
+    <string name="akali_skin_14">PROYECTO: Akali</string>
+    <string name="drmundo">Dr Mundo</string>
+    <string name="gwen">Gwen</string>
+    <string name="jhin">Jhin</string>
+    <string name="jhin_skin_5">Jhin Oscuridad Cósmica</string>
+    <string name="neeko">Neeko</string>
+    <string name="seraphine">Seraphine</string>
+    <string name="seraphine_skin_1">K/DA ALL OUT Seraphine Indie</string>
+    <string name="seraphine_skin_2">K/DA ALL OUT Seraphine Rising Start</string>
+    <string name="seraphine_skin_3">K/DA ALL OUT Seraphine Superstar</string>
+    <string name="yasuo">Yasuo</string>
+    <string name="zoe">Zoe</string>
+
 </resources>

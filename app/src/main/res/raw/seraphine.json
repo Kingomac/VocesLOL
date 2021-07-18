@@ -164,5 +164,15 @@
     "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineWCastEcho.mp3",
     "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineWCastEcho2.mp3",
     "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphineWCastEcho3.mp3"
+  ],
+  "passivemusic": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphinePassiveNotes.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphinePassiveNotes2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphinePassiveNotes3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphinePassiveNotes4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphinePassiveNotes5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphinePassiveNotes6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphinePassiveNotes7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/seraphine/SeraphinePassiveNotes8.mp3"
   ]
 }
