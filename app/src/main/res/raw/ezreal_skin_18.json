@@ -1,0 +1,73 @@
+{
+  "attack": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D13.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D14.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D15.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D16.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D17.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D18.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D19.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D20.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D21.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D22.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D23.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D24.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D25.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2D9.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2DJinxSkin04.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/AttackChampion2DLuxSkin06.mp3"
+  ],
+  "firstencounter": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/EnemyFirstEncounter2DLuxSkin06.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/EnemyFirstEncounter2DLuxSkin062.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/EnemyFirstEncounter2DStarGuardian.mp3"
+  ],
+  "firstmove": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/FirstMove2D.mp3"
+  ],
+  "kill": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/KillChampion3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/KillChampion3D2.mp3"
+  ],
+  "moveorder": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D13.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D14.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D15.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D16.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D17.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D18.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D19.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D20.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2D9.mp3"
+  ],
+  "moveorderlong": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2DLong.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2DLong2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2DLong3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2DLong4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2DLong5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/ezreal_skin_18/MoveOrder2DLong6.mp3"
+  ]
+}
