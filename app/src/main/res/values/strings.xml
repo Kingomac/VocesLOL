@@ -21,6 +21,11 @@
     <string name="akali_skin_14">PROYECTO: Akali</string>
     <string name="akali_skin_15">Akali True Damage</string>
     <string name="akali_skin_32">K/DA ALL OUT Akali</string>
+    <string name="annie">Annie</string>
+    <string name="ashe">Ashe</string>
+    <string name="ashe_skin_8">PROYECTO: Ashe</string>
+    <string name="ashe_skin_11">Ashe reina cósmica</string>
+    <string name="ashe_skin_17">Ashe sola ante el peligro</string>
     <string name="drmundo">Dr Mundo</string>
     <string name="evelynn">Evelynn</string>
     <string name="evelynn_skin_6">Evelynn K/DA</string>
@@ -35,6 +40,11 @@
     <string name="jhin_skin_1">Jhin solo ante el peligro</string>
     <string name="jhin_skin_4">PROYECTO: Jhin</string>
     <string name="jhin_skin_5">Jhin Oscuridad Cósmica</string>
+    <string name="lux">Lux</string>
+    <string name="lux_skin_7">Lux elementalista</string>
+    <string name="lux_skin_15">Lux academia de combate</string>
+    <string name="lux_skin_17">Lux oscuridad cósmica</string>
+    <string name="lux_skin_18">Lux cósmica</string>
     <string name="neeko">Neeko</string>
     <string name="senna">Senna</string>
     <string name="senna_skin_1">Senna True Damage</string>
@@ -46,5 +56,6 @@
     <string name="seraphine_skin_3">K/DA ALL OUT Seraphine Superstar</string>
     <string name="yasuo">Yasuo</string>
     <string name="zoe">Zoe</string>
+    <string name="zoe_skin_1">Zoe hacker</string>
 
 </resources>

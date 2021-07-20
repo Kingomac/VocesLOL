@@ -2,6 +2,7 @@ package com.kingo.vosesitaslolsito
 
 import android.content.Context
 import android.content.res.Resources
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,10 +27,12 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        Log.d("CHAMP", dataSet[position].name)
         holder.textView.text = applicationContext.resources.getString(applicationContext.resources.getIdentifier(dataSet[position].name.lowercase(), "string", applicationContext.packageName))
         holder.textView.setCompoundDrawablesWithIntrinsicBounds(0, when(dataSet[position]) {
             Champ.GWEN -> R.drawable.gwen_circle_0_gwen
             Champ.ZOE -> R.drawable.zoe_circle
+            Champ.ZOE_SKIN_1 -> R.drawable.zoe_circle_1
             Champ.DRMUNDO -> R.drawable.drmundo_circle_0_dr_mundo_vgu
             Champ.YASUO -> R.drawable.yasuo_circle
             Champ.NEEKO -> R.drawable.neeko_circle_0
@@ -48,6 +51,11 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
             Champ.AKALI_SKIN_14 -> R.drawable.akali_circle_14
             Champ.AKALI_SKIN_15 -> R.drawable.akali_circle_15_pie_c_9_22
             Champ.AKALI_SKIN_32 -> R.drawable.akali_circle_32_pie_c_10_22
+            Champ.ANNIE -> R.drawable.annie_circle
+            Champ.ASHE -> R.drawable.ashe_circle
+            Champ.ASHE_SKIN_8 -> R.drawable.ashe_circle_8
+            Champ.ASHE_SKIN_11 -> R.drawable.ashe_circle_11
+            Champ.ASHE_SKIN_17 -> R.drawable.ashe_circle_17_chroma_ashe_highnoon
             Champ.JHIN_SKIN_5 -> R.drawable.jhin_circle_5
             Champ.JHIN_SKIN_1 -> R.drawable.jhin_circle_1
             Champ.JHIN_SKIN_4 -> R.drawable.jhin_circle_4
@@ -63,6 +71,11 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
             Champ.EZREAL_SKIN_9 -> R.drawable.ezreal_circle_9
             Champ.EZREAL_SKIN_18 -> R.drawable.ezreal_circle_18
             Champ.EZREAL_SKIN_21 -> R.drawable.ezreal_circle_21
+            Champ.LUX -> R.drawable.lux_circle_0
+            Champ.LUX_SKIN_7 -> arrayOf(R.drawable.lux_circle_7_light, R.drawable.lux_circle_7_air, R.drawable.lux_circle_7_dark, R.drawable.lux_circle_7_fire, R.drawable.lux_circle_7_ice, R.drawable.lux_circle_7_magma, R.drawable.lux_circle_7_mystic, R.drawable.lux_circle_7_nature, R.drawable.lux_circle_7_storm, R.drawable.lux_circle_7_water).random()
+            Champ.LUX_SKIN_15 -> R.drawable.lux_circle_15
+            Champ.LUX_SKIN_17 -> R.drawable.lux_circle_17
+            Champ.LUX_SKIN_18 -> R.drawable.lux_circle_18
             else -> R.drawable.ic_launcher_foreground
         }, 0, 0)
     }

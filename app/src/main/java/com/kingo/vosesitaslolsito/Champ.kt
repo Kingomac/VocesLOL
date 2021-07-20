@@ -11,6 +11,11 @@ enum class Champ {
         AKALI_SKIN_14,
         AKALI_SKIN_15,
         AKALI_SKIN_32,
+        ANNIE,
+        ASHE,
+        ASHE_SKIN_8,
+        ASHE_SKIN_11,
+        ASHE_SKIN_17,
         DRMUNDO,
         EVELYNN,
         EVELYNN_SKIN_6,
@@ -25,6 +30,11 @@ enum class Champ {
         JHIN_SKIN_1,
         JHIN_SKIN_4,
         JHIN_SKIN_5,
+        LUX,
+        LUX_SKIN_7,
+        LUX_SKIN_15,
+        LUX_SKIN_17,
+        LUX_SKIN_18,
         NEEKO,
         SENNA,
         SENNA_SKIN_1,
@@ -35,5 +45,6 @@ enum class Champ {
         SERAPHINE_SKIN_2,
         SERAPHINE_SKIN_3,
         YASUO,
-        ZOE
+        ZOE,
+        ZOE_SKIN_1
 }
