@@ -76,6 +76,12 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
             Champ.LUX_SKIN_15 -> R.drawable.lux_circle_15
             Champ.LUX_SKIN_17 -> R.drawable.lux_circle_17
             Champ.LUX_SKIN_18 -> R.drawable.lux_circle_18
+            Champ.AKSHAN -> R.drawable.akshan_circle_akshan
+            Champ.RAKAN -> R.drawable.rakan_circle
+            Champ.RAKAN_SKIN_5 -> R.drawable.rakan_circle_5
+            Champ.XAYAH -> R.drawable.xayah_circle
+            Champ.XAYAH_SKIN_3 -> R.drawable.xayah_circle_3
+            Champ.XAYAH_SKIN_4 -> R.drawable.xayah_circle_4
             else -> R.drawable.ic_launcher_foreground
         }, 0, 0)
     }

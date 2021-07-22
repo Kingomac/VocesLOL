@@ -11,11 +11,6 @@ import com.kingo.vosesitaslolsito.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    companion object {
-        private const val PERMISSION_WRITE_EXTERNAL_CODE = 1
-        private const val PERMISSION_READ_EXTERNAL_CODE = 2
-    }
-
     private val requestMultiplePermissions = registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()){
             permissions ->
         permissions.entries.forEach {
