@@ -28,7 +28,17 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         Log.d("CHAMP", dataSet[position].name)
-        holder.textView.text = applicationContext.resources.getString(applicationContext.resources.getIdentifier(dataSet[position].name.lowercase(), "string", applicationContext.packageName))
+        holder.textView.text = try {
+            applicationContext.resources.getString(
+                applicationContext.resources.getIdentifier(
+                    dataSet[position].name.lowercase(),
+                    "string",
+                    applicationContext.packageName
+                )
+            )
+        } catch(e: Exception) {
+            "Lol no tiene bugs"
+        }
         holder.textView.setCompoundDrawablesWithIntrinsicBounds(0, when(dataSet[position]) {
             Champ.GWEN -> R.drawable.gwen_circle_0_gwen
             Champ.ZOE -> R.drawable.zoe_circle
@@ -82,6 +92,30 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
             Champ.XAYAH -> R.drawable.xayah_circle
             Champ.XAYAH_SKIN_3 -> R.drawable.xayah_circle_3
             Champ.XAYAH_SKIN_4 -> R.drawable.xayah_circle_4
+            Champ.MASTERYI -> R.drawable.masteryi_circle_0
+            Champ.MASTERYI_SKIN_9 -> R.drawable.masteryi_circle_9
+            Champ.MASTERYI_SKIN_10 -> R.drawable.masteryi_circle_10
+            Champ.IRELIA -> R.drawable.irelia_circle_0
+            Champ.IRELIA_SKIN_1 -> R.drawable.irelia_circle_1
+            Champ.IRELIA_SKIN_2 -> R.drawable.irelia_circle_2
+            Champ.IRELIA_SKIN_3 -> R.drawable.irelia_circle_3
+            Champ.IRELIA_SKIN_4 -> R.drawable.irelia_circle_4
+            Champ.IRELIA_SKIN_5 -> R.drawable.irelia_circle_5
+            Champ.IRELIA_SKIN_16 -> R.drawable.irelia_circle_16
+            Champ.JINX -> R.drawable.jinx_circle
+            Champ.JINX_SKIN_1 -> R.drawable.jinx_circle_1
+            Champ.JINX_SKIN_4 -> R.drawable.jinx_circle_4
+            Champ.JINX_SKIN_20 -> R.drawable.jinx_circle_20
+            Champ.KAISA -> R.drawable.kaisa_circle
+            Champ.KAISA_SKIN_1 -> R.drawable.kaisa_circle_1
+            Champ.KAISA_SKIN_14 -> R.drawable.kaisa_circle_14
+            Champ.KAISA_SKIN_17 -> R.drawable.kaisa_circle_17
+            Champ.KAISA_SKIN_26 -> R.drawable.kaisa_circle_26_pie_c_10_22
+            Champ.KATARINA -> R.drawable.katarina_circle
+            Champ.KATARINA_SKIN_9 -> R.drawable.katarina_circle_9
+            Champ.KATARINA_SKIN_10 -> R.drawable.katarina_circle_10
+            Champ.KATARINA_SKIN_12 -> R.drawable.katarina_circle_12
+            Champ.KATARINA_SKIN_29 -> R.drawable.katarina_circle_29_pie_c_10_25
             else -> R.drawable.ic_launcher_foreground
         }, 0, 0)
     }

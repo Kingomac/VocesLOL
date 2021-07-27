@@ -26,7 +26,11 @@ class VoicesActivity : AppCompatActivity() {
         } catch (e: Exception) {
             throw Exception("Cagaaaaaaaaaaste")
         }
-        title = applicationContext.resources.getString(applicationContext.resources.getIdentifier(champ.lowercase(), "string", packageName))
+        title = try {
+            applicationContext.resources.getString(applicationContext.resources.getIdentifier(champ.lowercase(), "string", packageName))
+        } catch (e: Exception) {
+            "Lol no tiene bugs"
+        }
         val inputStream: InputStream = resources.openRawResource(
             resources.getIdentifier(
                 champ.lowercase(),
