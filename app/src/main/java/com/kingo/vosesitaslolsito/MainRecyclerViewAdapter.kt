@@ -116,6 +116,24 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
             Champ.KATARINA_SKIN_10 -> R.drawable.katarina_circle_10
             Champ.KATARINA_SKIN_12 -> R.drawable.katarina_circle_12
             Champ.KATARINA_SKIN_29 -> R.drawable.katarina_circle_29_pie_c_10_25
+            Champ.BLITZCRANK -> R.drawable.steamgolem_circle
+            Champ.BLITZCRANK_SKIN_20 -> R.drawable.blitzcrank_circle_20
+            Champ.BLITZCRANK_SKIN_21 -> R.drawable.blitzcrank_circle_21
+            Champ.BLITZCRANK_SKIN_29 -> R.drawable.blitzcrank_circle_29_pie_c_11_7
+            Champ.CAITLYN -> R.drawable.caitlyn_circle
+            Champ.CAITLYN_SKIN_11 -> R.drawable.caitlyn_circle_11
+            Champ.CAITLYN_SKIN_22 -> R.drawable.caitlyn_circle_22_pie_c_11_6
+            Champ.CHOGATH -> R.drawable.greenterror_circle
+            Champ.CHOGATH_SKIN_2 -> R.drawable.chogath_circle_2
+            Champ.CHOGATH_SKIN_5 -> R.drawable.chogath_circle_5
+            Champ.SONA -> R.drawable.sona_circle
+            Champ.SONA_SKIN_3 ->R.drawable.sona_circle_3
+            Champ.SONA_SKIN_4 -> R.drawable.sona_circle_4
+            Champ.SONA_SKIN_5 -> R.drawable.sona_circle_5
+            Champ.SONA_SKIN_6 -> R.drawable.sona_circle_6
+            Champ.SONA_SKIN_17 -> R.drawable.sona_circle_17_pie_c_10_18
+            Champ.SETT -> R.drawable.sett_circle_0
+            Champ.SETT_SKIN_1 -> R.drawable.sett_circle_1
             else -> R.drawable.ic_launcher_foreground
         }, 0, 0)
     }
