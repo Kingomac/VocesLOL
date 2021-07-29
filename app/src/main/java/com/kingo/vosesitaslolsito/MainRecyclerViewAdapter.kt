@@ -134,6 +134,21 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
             Champ.SONA_SKIN_17 -> R.drawable.sona_circle_17_pie_c_10_18
             Champ.SETT -> R.drawable.sett_circle_0
             Champ.SETT_SKIN_1 -> R.drawable.sett_circle_1
+            Champ.BARD -> R.drawable.bard_circle
+            Champ.AZIR -> R.drawable.azir_circle
+            Champ.AZIR_SKIN_2 -> R.drawable.azir_circle_2
+            Champ.APHELIOS -> R.drawable.aphelios_circle_0_aphelios
+            Champ.APHELIOS_SKIN_1 -> R.drawable.aphelios_circle_1_aphelios
+            Champ.VARUS -> R.drawable.varus_circle_0
+            Champ.VARUS_SKIN_2 -> R.drawable.varus_circle_2
+            Champ.VARUS_SKIN_4 -> R.drawable.varus_circle_4
+            Champ.VARUS_SKIN_16 -> R.drawable.varus_circle_16_pie_c_11_11
+            Champ.VARUS_SKIN_17 -> R.drawable.varus_circle_17_pie_c_10_24
+            Champ.VIEGO -> R.drawable.viego_circle_ruinedking
+            Champ.VOLIBEAR -> R.drawable.volibear_circle_0_voli
+            Champ.WARWICK -> R.drawable.warwick_circle_0
+            Champ.WARWICK_SKIN_7 -> R.drawable.warwick_circle_7
+            Champ.WARWICK_SKIN_16 -> R.drawable.warwick_circle_16
             else -> R.drawable.ic_launcher_foreground
         }, 0, 0)
     }
