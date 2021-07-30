@@ -22,5 +22,18 @@
     "https://storage.googleapis.com/voces-lol.appspot.com/sona_skin_6/Move2D7.mp3",
     "https://storage.googleapis.com/voces-lol.appspot.com/sona_skin_6/Move2D8.mp3",
     "https://storage.googleapis.com/voces-lol.appspot.com/sona_skin_6/Move2D9.mp3"
+  ],
+  "NoGenre": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona_skin_6/NoGenre.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona_skin_6/NoGenre2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona_skin_6/NoGenre3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona_skin_6/NoGenre4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona_skin_6/NoGenre5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona_skin_6/NoGenre6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona_skin_6/NoGenre7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona_skin_6/NoGenre8.mp3"
+  ],
+  "Transitionleadin01": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona_skin_6/Transition%20leadin%2001.mp3"
   ]
 }

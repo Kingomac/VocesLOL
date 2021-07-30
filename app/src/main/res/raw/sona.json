@@ -168,5 +168,29 @@
     "https://storage.googleapis.com/voces-lol.appspot.com/sona/UseItem2DWard5.mp3",
     "https://storage.googleapis.com/voces-lol.appspot.com/sona/UseItem2DWard6.mp3",
     "https://storage.googleapis.com/voces-lol.appspot.com/sona/UseItem2DWard7.mp3"
+  ],
+  "AmbientE": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientESound%20OnBuffActivate.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientESound%20OnBuffActivate2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientESound%20OnBuffActivate3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientESound%20OnBuffActivate4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientESound%20OnBuffActivate5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientESound%20OnBuffActivate6.mp3"
+  ],
+  "AmbientQ": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientQSound%20OnBuffActivate.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientQSound%20OnBuffActivate2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientQSound%20OnBuffActivate3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientQSound%20OnBuffActivate4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientQSound%20OnBuffActivate5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientQSound%20OnBuffActivate6.mp3"
+  ],
+  "AmbientW": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientWSound%20OnBuffActivate.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientWSound%20OnBuffActivate2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientWSound%20OnBuffActivate3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientWSound%20OnBuffActivate4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientWSound%20OnBuffActivate5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/sona/SonaAmbientWSound%20OnBuffActivate6.mp3"
   ]
 }
