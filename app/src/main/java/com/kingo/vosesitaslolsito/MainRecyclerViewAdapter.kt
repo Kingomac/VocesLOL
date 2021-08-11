@@ -1,19 +1,23 @@
 package com.kingo.vosesitaslolsito
 
 import android.content.Context
+import android.content.Intent
 import android.content.res.Resources
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Filter
+import android.widget.Filterable
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import kotlin.coroutines.coroutineContext
 
 class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val applicationContext: Context) :
-    RecyclerView.Adapter<MainRecyclerViewAdapter.ViewHolder>(), View.OnClickListener {
+    RecyclerView.Adapter<MainRecyclerViewAdapter.ViewHolder>(), View.OnClickListener, Filterable {
 
     private var listener: View.OnClickListener? = null
+    public var filteredChamps: ArrayList<Champ> = ArrayList(dataSet.toMutableList())
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val textView: TextView = view.findViewById(R.id.textView)
@@ -27,11 +31,11 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        Log.d("CHAMP", dataSet[position].name)
+        Log.d("CHAMP", filteredChamps[position].name)
         holder.textView.text = try {
             applicationContext.resources.getString(
                 applicationContext.resources.getIdentifier(
-                    dataSet[position].name.lowercase(),
+                    filteredChamps[position].name.lowercase(),
                     "string",
                     applicationContext.packageName
                 )
@@ -40,7 +44,7 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
             "Lol no tiene bugs"
         }
         holder.textView.setCompoundDrawablesWithIntrinsicBounds(
-            0, when (dataSet[position]) {
+            0, when (filteredChamps[position]) {
                 Champ.GWEN -> R.drawable.gwen_circle_0_gwen
                 Champ.ZOE -> R.drawable.zoe_circle
                 Champ.ZOE_SKIN_1 -> R.drawable.zoe_circle_1
@@ -196,5 +200,39 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
         this.listener = listener
     }
 
-    override fun getItemCount(): Int = dataSet.size
+    override fun getItemCount(): Int = filteredChamps.size
+
+    override fun getFilter(): Filter {
+        return object : Filter() {
+            override fun performFiltering(constraint: CharSequence?): FilterResults {
+                val charSearch = constraint.toString()
+                filteredChamps = if(charSearch.isEmpty()) {
+                    ArrayList(dataSet.toMutableList())
+                } else {
+                    val resultList = ArrayList<Champ>()
+                    dataSet.forEach { champ ->
+                        if(champ.name.lowercase().startsWith(charSearch.lowercase())) {
+                            resultList.add(champ)
+                        }
+                    }
+                    resultList
+                }
+                filteredChamps.clear()
+                if(charSearch.isEmpty()) filteredChamps.addAll(dataSet)
+                else
+                    dataSet.forEach { champ ->
+                        if(champ.name.lowercase().startsWith(charSearch.lowercase())) {
+                            filteredChamps.add(champ)
+                        }
+                    }
+                Log.e("FILTER", filteredChamps.toString())
+                return FilterResults().apply { count = filteredChamps.size; values = filteredChamps }
+            }
+
+            override fun publishResults(constraint: CharSequence?, results: FilterResults?) {
+                //filteredChamps = results?.values as ArrayList<Champ>
+                notifyDataSetChanged()
+            }
+        }
+    }
 }
