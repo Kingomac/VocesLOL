@@ -1,0 +1,91 @@
+{
+  "Attack": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D13.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Attack2D9.mp3"
+  ],
+  "Death": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Death3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Death3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Death3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Death3D4.mp3"
+  ],
+  "InteractiveChampion": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Interactive%20Interactive3DChampionSpecific21.mp3"
+  ],
+  "Joke": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Joke3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Joke3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Joke3D3.mp3"
+  ],
+  "KillChampion": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/KillChampion3DPoolParty.mp3"
+  ],
+  "Laugh": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Laugh3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Laugh3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Laugh3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Laugh3D4.mp3"
+  ],
+  "Move": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D13.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D14.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Move2D9.mp3"
+  ],
+  "Basic": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiBasicAttack%20OnCast.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiBasicAttack%20OnCast2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiBasicAttack%20OnCast3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiBasicAttack%20OnCast4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiBasicAttack2%20OnCast.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiBasicAttack2%20OnCast2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiBasicAttack2%20OnCast3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiBasicAttack2%20OnCast4.mp3"
+  ],
+  "Critical": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiCritAttack%20OnCast.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiCritAttack%20OnCast2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiCritAttack%20OnCast3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiCritAttack%20OnCast4.mp3"
+  ],
+  "Q": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiQ%20OnCast.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiQ%20OnCast2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiQ%20OnCast3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiQ%20OnCast4.mp3"
+  ],
+  "R": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiR%20OnCast.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiR%20OnCast2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiR%20OnCast3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiR%20OnCast4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiR%20OnCast5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/NamiR%20OnCast6.mp3"
+  ],
+  "Taunt": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Taunt3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Taunt3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nami_skin_2/Taunt3DFizz.mp3"
+  ]
+}

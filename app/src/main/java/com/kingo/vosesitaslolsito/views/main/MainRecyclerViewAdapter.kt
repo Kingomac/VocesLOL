@@ -220,6 +220,30 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
                 Champ.LISSANDRA -> R.drawable.lissandra_circle
                 Champ.LISSANDRA_SKIN_3 -> R.drawable.lissandra_circle_3
                 Champ.LISSANDRA_SKIN_12 -> R.drawable.lissandra_circle_12_pie_c_10_24
+                Champ.MISSFORTUNE -> R.drawable.missfortune_circle_0
+                Champ.MISSFORTUNE_SKIN_16 -> arrayOf(R.drawable.missfortune_circle_16_royalarms, R.drawable.missfortune_circle_16_scarletfair, R.drawable.missfortune_circle_16_zerohour, R.drawable.missfortune_circle_16_starswarm).random()
+                Champ.MISSFORTUNE_SKIN_21 -> R.drawable.missfortune_circle_21_pie_c_11_15
+                Champ.MONKEYKING -> R.drawable.monkeyking_circle
+                Champ.MONKEYKING_SKIN_4 -> R.drawable.monkeyking_circle_4
+                Champ.MONKEYKING_SKIN_5 -> R.drawable.monkeyking_circle_5
+                Champ.MONKEYKING_SKIN_6 -> R.drawable.monkeyking_circle_6
+                Champ.MONKEYKING_SKIN_7 -> R.drawable.monkeyking_circle_7_pie_c_11_6
+                Champ.MORDEKAISER -> R.drawable.mordekaiser_circle_0
+                Champ.MORDEKAISER_SKIN_6 -> R.drawable.mordekaiser_circle_6
+                Champ.MORDEKAISER_SKIN_13 -> R.drawable.mordekaiser_circle_13_pie_c_11_11
+                Champ.MORGANA -> R.drawable.morgana_circle_0
+                Champ.MORGANA_SKIN_5 -> R.drawable.morgana_circle_5
+                Champ.MORGANA_SKIN_26 -> R.drawable.morgana_circle_26
+                Champ.NAMI -> R.drawable.nami_circle
+                Champ.NAMI_SKIN_2 -> R.drawable.nami_circle_2
+                Champ.NAMI_SKIN_7 -> R.drawable.nami_circle_7
+                Champ.NAMI_SKIN_9 -> R.drawable.nami_circle_9
+                Champ.NAMI_SKIN_24 -> R.drawable.nami_circle_24_pie_c_10_24
+                Champ.NAUTILUS -> R.drawable.nautilus_circle_0
+                Champ.NASUS -> R.drawable.nasus_circle
+                Champ.NASUS_SKIN_5 -> R.drawable.nasus_circle_5
+                Champ.NASUS_SKIN_16 -> R.drawable.nasus_circle_16_pie_c_10_23
+                Champ.NASUS_SKIN_25 -> R.drawable.nasus_circle_25_pie_c_11_7
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )

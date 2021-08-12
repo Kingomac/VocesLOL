@@ -1,0 +1,91 @@
+{
+  "Attack": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral13.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Attack2DGeneral9.mp3"
+  ],
+  "Death": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Death3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Death3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Death3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Death3D4.mp3"
+  ],
+  "Joke": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Joke3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Joke3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Joke3DGeneral3.mp3"
+  ],
+  "Laugh": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Laugh3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Laugh3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Laugh3DGeneral3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Laugh3DGeneral4.mp3"
+  ],
+  "MoveStandard": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard13.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard14.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard15.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard16.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Move2DStandard9.mp3"
+  ],
+  "Basic": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusBasicAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusBasicAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusBasicAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusBasicAttack%20cast3D4.mp3"
+  ],
+  "Critical": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusCritAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusCritAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusCritAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusCritAttack%20cast3D4.mp3"
+  ],
+  "E": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusE%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusE%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusE%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusE%20cast3D4.mp3"
+  ],
+  "Q": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusQAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusQAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusQAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusQAttack%20cast3D4.mp3"
+  ],
+  "W": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusW%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusW%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusW%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/NasusW%20cast3D4.mp3"
+  ],
+  "Taunt": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Taunt3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Taunt3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Taunt3DRenekton.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Taunt3DRenekton2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Taunt3DRenekton3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Taunt3DXerath.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nasus/Taunt3DXerath2.mp3"
+  ]
+}
