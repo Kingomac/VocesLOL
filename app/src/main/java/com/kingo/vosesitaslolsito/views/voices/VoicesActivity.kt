@@ -1,4 +1,4 @@
-package com.kingo.vosesitaslolsito
+package com.kingo.vosesitaslolsito.views.voices
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,6 +7,8 @@ import android.view.Menu
 import android.view.MenuItem
 import com.google.android.material.tabs.TabLayoutMediator
 import com.kingo.vosesitaslolsito.databinding.ActivityVoicesBinding
+import com.kingo.vosesitaslolsito.util.JsonLinksParser
+import com.kingo.vosesitaslolsito.util.SoundsData
 import java.io.InputStream
 
 class VoicesActivity : AppCompatActivity() {

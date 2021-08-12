@@ -1,4 +1,4 @@
-package com.kingo.vosesitaslolsito
+package com.kingo.vosesitaslolsito.views.voices
 
 import android.app.AlertDialog
 import android.app.DownloadManager
@@ -20,6 +20,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
+import com.kingo.vosesitaslolsito.R
 import com.kingo.vosesitaslolsito.databinding.FragmentSoundsTabBinding
 import java.io.File
 import java.net.URLDecoder
@@ -88,7 +89,7 @@ class SoundsTabFragment : Fragment() {
                         Log.i("PLAY", "File does not exist")
                         if (canDownload()) {
                             onDownloadCompleteAction =
-                                SoundsTabFragment.DownloadCompletedAction.PLAY_FILE
+                                DownloadCompletedAction.PLAY_FILE
                             buttonToPaint = btn
                             downloadbegin(Uri.parse(url), file)
                         }
@@ -113,7 +114,7 @@ class SoundsTabFragment : Fragment() {
                         startActivity(shareIntent)
                     } else if (canDownload()) {
                         onDownloadCompleteAction =
-                            SoundsTabFragment.DownloadCompletedAction.SHARE_FILE
+                            DownloadCompletedAction.SHARE_FILE
                         buttonToPaint = btn
                         downloadbegin(Uri.parse(url), file)
                     }
@@ -228,12 +229,12 @@ class SoundsTabFragment : Fragment() {
             buttonToPaint?.let { paintButtonAsDownloaded(it) }
             if (downloadId == id) {
                 when (onDownloadCompleteAction) {
-                    SoundsTabFragment.DownloadCompletedAction.PLAY_FILE -> {
+                    DownloadCompletedAction.PLAY_FILE -> {
                         fileUri?.let {
                             play(it)
                         }
                     }
-                    SoundsTabFragment.DownloadCompletedAction.SHARE_FILE -> {
+                    DownloadCompletedAction.SHARE_FILE -> {
                         startActivity(shareIntent)
                     }
                 }

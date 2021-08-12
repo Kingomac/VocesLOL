@@ -1,9 +1,10 @@
-package com.kingo.vosesitaslolsito
+package com.kingo.vosesitaslolsito.views.voices
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.kingo.vosesitaslolsito.util.SoundsData
 
 class SoundsViewPagerAdapter(fa: FragmentActivity, private val links: Array<SoundsData>, private val champ: String): FragmentStateAdapter(fa) {
 

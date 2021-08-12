@@ -1,4 +1,4 @@
-package com.kingo.vosesitaslolsito
+package com.kingo.vosesitaslolsito.util
 
 class JsonLinksParser {
     companion object {

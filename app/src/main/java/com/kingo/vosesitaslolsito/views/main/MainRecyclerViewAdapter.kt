@@ -1,8 +1,6 @@
-package com.kingo.vosesitaslolsito
+package com.kingo.vosesitaslolsito.views.main
 
 import android.content.Context
-import android.content.Intent
-import android.content.res.Resources
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -11,7 +9,8 @@ import android.widget.Filter
 import android.widget.Filterable
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import kotlin.coroutines.coroutineContext
+import com.kingo.vosesitaslolsito.util.Champ
+import com.kingo.vosesitaslolsito.R
 
 class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val applicationContext: Context) :
     RecyclerView.Adapter<MainRecyclerViewAdapter.ViewHolder>(), View.OnClickListener, Filterable {
@@ -187,6 +186,19 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
                 Champ.YONE -> R.drawable.yone_circle_0_yone
                 Champ.YONE_SKIN_1 -> R.drawable.yone_circle_1_yone
                 Champ.YONE_SKIN_10 -> R.drawable.yone_circle_10_pie_c_11_6
+                Champ.FIDDLESTICKS -> R.drawable.fiddlesticks_circle_0_fiddlesticksrework
+                Champ.FIDDLESTICKS_SKIN_6 -> R.drawable.fiddlesticks_circle_6_fiddlesticksrework
+                Champ.FIDDLESTICKS_SKIN_9 -> R.drawable.fiddlesticks_circle_9_fiddlesticksrework
+                Champ.FIORA -> R.drawable.fiora_circle
+                Champ.FIORA_SKIN_4 -> R.drawable.fiora_circle_4
+                Champ.GAREN -> R.drawable.garen_circle
+                Champ.GAREN_SKIN_13 -> R.drawable.garen_circle_13
+                Champ.GAREN_SKIN_22 -> R.drawable.garen_circle_22
+                Champ.GAREN_SKIN_24 -> R.drawable.garen_circle_24_pie_c_11_6
+                Champ.GRAVES -> R.drawable.graves_circle
+                Champ.GRAVES_SKIN_18 -> R.drawable.graves_circle_18
+                Champ.GRAVES_SKIN_35 -> R.drawable.graves_circle_35_pie_c_11_15
+                Champ.GRAVES_SKIN_25 -> R.drawable.graves_circle_25
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )

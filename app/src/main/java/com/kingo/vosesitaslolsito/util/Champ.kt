@@ -1,4 +1,4 @@
-package com.kingo.vosesitaslolsito
+package com.kingo.vosesitaslolsito.util
 
 enum class Champ {
         AATROX,
@@ -41,6 +41,19 @@ enum class Champ {
         EZREAL_SKIN_9,
         EZREAL_SKIN_18,
         EZREAL_SKIN_21,
+        FIDDLESTICKS,
+        FIDDLESTICKS_SKIN_6,
+        FIDDLESTICKS_SKIN_9,
+        FIORA,
+        FIORA_SKIN_4,
+        GAREN,
+        GAREN_SKIN_13,
+        GAREN_SKIN_22,
+        GAREN_SKIN_24,
+        GRAVES,
+        GRAVES_SKIN_18,
+        GRAVES_SKIN_25,
+        GRAVES_SKIN_35,
         GWEN,
         IRELIA,
         IRELIA_SKIN_1,

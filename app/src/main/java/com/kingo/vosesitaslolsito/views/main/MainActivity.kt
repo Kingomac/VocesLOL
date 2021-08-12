@@ -1,4 +1,4 @@
-package com.kingo.vosesitaslolsito
+package com.kingo.vosesitaslolsito.views.main
 
 import android.Manifest
 import android.content.Intent
@@ -6,9 +6,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
-import android.widget.SearchView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.recyclerview.widget.GridLayoutManager
+import com.kingo.vosesitaslolsito.util.Champ
+import com.kingo.vosesitaslolsito.R
+import com.kingo.vosesitaslolsito.views.voices.VoicesActivity
 import com.kingo.vosesitaslolsito.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
