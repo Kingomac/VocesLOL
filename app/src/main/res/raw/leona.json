@@ -1,0 +1,77 @@
+{
+  "Attack": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/AttackChampion2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/AttackChampion2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/AttackChampion2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/AttackChampion2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/AttackChampion2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/AttackChampion2D6.mp3"
+  ],
+  "Death": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/Death3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/Death3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/Death3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/Death3D4.mp3"
+  ],
+  "Joke": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/Joke3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/Joke3D2.mp3"
+  ],
+  "Laugh": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/Laugh3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/Laugh3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/Laugh3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/Laugh3D4.mp3"
+  ],
+  "Basic": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaBasicAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaBasicAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaBasicAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaBasicAttack%20cast3D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaBasicAttack2%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaBasicAttack2%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaBasicAttack2%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaBasicAttack2%20cast3D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaBasicAttack3%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaBasicAttack3%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaBasicAttack3%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaBasicAttack3%20cast3D4.mp3"
+  ],
+  "Critical": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaCritAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaCritAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaCritAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaCritAttack%20cast3D4.mp3"
+  ],
+  "ShieldOfDaybreak": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaShieldOfDaybreakAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaShieldOfDaybreakAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaShieldOfDaybreakAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaShieldOfDaybreakAttack%20cast3D4.mp3"
+  ],
+  "SolarFlare": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaSolarFlare%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaSolarFlare%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaSolarFlare%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaSolarFlare%20cast3D4.mp3"
+  ],
+  "ZenithBlade": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaZenithBlade%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaZenithBlade%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaZenithBlade%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/LeonaZenithBlade%20cast3D4.mp3"
+  ],
+  "MoveOrder": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/MoveOrder2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/MoveOrder2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/MoveOrder2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/MoveOrder2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/MoveOrder2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/MoveOrder2D6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/MoveOrder2D7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/MoveOrder2D8.mp3"
+  ],
+  "Taunt": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/leona/Taunt3DGeneral.mp3"
+  ]
+}

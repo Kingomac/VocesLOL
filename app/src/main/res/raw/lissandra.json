@@ -1,0 +1,102 @@
+{
+  "Attack": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/AttackChampion2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/AttackChampion2D10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/AttackChampion2D11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/AttackChampion2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/AttackChampion2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/AttackChampion2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/AttackChampion2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/AttackChampion2D6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/AttackChampion2D7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/AttackChampion2D8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/AttackChampion2D9.mp3"
+  ],
+  "Death": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Death3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Death3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Death3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Death3D4.mp3"
+  ],
+  "Joke": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Joke3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Joke3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Joke3DGeneral3.mp3"
+  ],
+  "Laugh": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Laugh3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Laugh3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Laugh3DGeneral3.mp3"
+  ],
+  "Basic": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraBasicAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraBasicAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraBasicAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraBasicAttack%20cast3D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraBasicAttack2%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraBasicAttack2%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraBasicAttack2%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraBasicAttack2%20cast3D4.mp3"
+  ],
+  "Critical": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraCritAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraCritAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraCritAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraCritAttack%20cast3D4.mp3"
+  ],
+  "E": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraE%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraE%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraE%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraE%20cast3D4.mp3"
+  ],
+  "Q": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraQ%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraQ%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraQ%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraQ%20cast3D4.mp3"
+  ],
+  "R": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraR%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraR%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraR%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraREnemy%20OnBuffActivate.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraREnemy%20OnBuffActivate2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraREnemy%20OnBuffActivate3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraREnemy%20OnBuffActivate4.mp3"
+  ],
+  "W": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraW%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraW%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraW%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/LissandraW%20cast3D4.mp3"
+  ],
+  "MoveOrder": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D11.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D12.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D13.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D14.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/MoveOrder2D9.mp3"
+  ],
+  "OnBuffActivate": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/OnBuffActivate.mp3"
+  ],
+  "Taunt": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Taunt3DAshe.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Taunt3DBrand.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Taunt3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Taunt3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Taunt3DGeneral3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Taunt3DGeneral4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/lissandra/Taunt3DSejuani.mp3"
+  ]
+}

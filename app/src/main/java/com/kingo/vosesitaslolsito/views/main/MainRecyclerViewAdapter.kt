@@ -199,6 +199,27 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
                 Champ.GRAVES_SKIN_18 -> R.drawable.graves_circle_18
                 Champ.GRAVES_SKIN_35 -> R.drawable.graves_circle_35_pie_c_11_15
                 Champ.GRAVES_SKIN_25 -> R.drawable.graves_circle_25
+                Champ.LEESIN -> R.drawable.leesin_circle
+                Champ.LEESIN_SKIN_12 -> R.drawable.leesin_circle_12
+                Champ.LEESIN_SKIN_31 -> R.drawable.leesin_circle_31_pie_c_10_20
+                Champ.LEESIN_SKIN_11 -> R.drawable.leesin_circle_11
+                Champ.LEONA -> R.drawable.leona_circle
+                Champ.LEONA_SKIN_8 -> R.drawable.leona_circle_8
+                Champ.LEONA_SKIN_10 -> R.drawable.leona_circle_10
+                Champ.LEONA_SKIN_11 -> R.drawable.leona_circle_11
+                Champ.LEONA_SKIN_12 -> R.drawable.leona_circle_12
+                Champ.LEONA_SKIN_21 -> R.drawable.leona_circle_21_pie_c_11_6
+                Champ.LILLIA -> R.drawable.lillia_circle_0_lillia
+                Champ.LILLIA_SKIN_1 -> R.drawable.lillia_circle_1_lillia
+                Champ.LUCIAN -> R.drawable.lucian_circle
+                Champ.LUCIAN_SKIN_6 -> R.drawable.lucian_circle_6
+                Champ.LUCIAN_SKIN_8 -> R.drawable.lucian_circle_8
+                Champ.LULU -> R.drawable.lulu_circle_0
+                Champ.LULU_SKIN_14 -> R.drawable.lulu_circle_14
+                Champ.LULU_SKIN_26 -> R.drawable.lulu_circle_26_pie_c_11_7
+                Champ.LISSANDRA -> R.drawable.lissandra_circle
+                Champ.LISSANDRA_SKIN_3 -> R.drawable.lissandra_circle_3
+                Champ.LISSANDRA_SKIN_12 -> R.drawable.lissandra_circle_12_pie_c_10_24
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )
