@@ -1,0 +1,52 @@
+{
+  "Attack": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/AttackChampion2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/AttackChampion2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/AttackChampion2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/AttackChampion2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/AttackChampion2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/AttackChampion2D6.mp3"
+  ],
+  "Death": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Death3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Death3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Death3D3.mp3"
+  ],
+  "Landslide": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Landslide%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Landslide%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Landslide%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Landslide%20cast3D4.mp3"
+  ],
+  "Basic": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MalphiteBasicAttack2%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MalphiteBasicAttack2%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MalphiteBasicAttack2%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MalphiteBasicAttack2%20cast3D4.mp3"
+  ],
+  "Critical": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MalphiteCritAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MalphiteCritAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MalphiteCritAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MalphiteCritAttack%20cast3D4.mp3"
+  ],
+  "MoveOrder": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MoveOrder2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MoveOrder2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MoveOrder2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MoveOrder2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MoveOrder2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MoveOrder2D6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/MoveOrder2D7.mp3"
+  ],
+  "Others": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Others.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Others2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Others3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Others4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Others5.mp3"
+  ],
+  "Taunt": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/malphite_skin_23/Taunt3DGeneral.mp3"
+  ]
+}

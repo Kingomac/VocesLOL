@@ -262,6 +262,19 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
                 Champ.PYKE_SKIN_1 -> R.drawable.pyke_circle_1
                 Champ.PYKE_SKIN_16 -> R.drawable.pyke_circle_16
                 Champ.PYKE_SKIN_25 -> R.drawable.pyke_circle_25_pie_c_10_19
+                Champ.AHRI_SKIN_4 -> R.drawable.ahri_circle_4
+                Champ.AHRI_SKIN_42 -> R.drawable.ahri_circle_42_pie_c_11_16
+                Champ.ASHE_SKIN_32 -> R.drawable.ashe_circle_32_pie_c_11_16
+                Champ.CASSIOPEIA -> R.drawable.cassiopeia_circle_0
+                Champ.CASSIOPEIA_SKIN_8 -> R.drawable.cassiopeia_circle_8
+                Champ.CASSIOPEIA_SKIN_18 -> R.drawable.cassiopeia_circle_18_pie_c_11_16
+                Champ.EVELYNN_SKIN_24 -> R.drawable.evelynn_circle_24_pie_c_11_16
+                Champ.MALPHITE -> R.drawable.malphite_circle
+                Champ.MALPHITE_SKIN_6 -> R.drawable.malphite_circle_6
+                Champ.MALPHITE_SKIN_16 -> R.drawable.malphite_circle_16
+                Champ.MALPHITE_SKIN_23 -> R.drawable.malphite_circle_23_skins_malphite_skin23
+                Champ.MALPHITE_SKIN_27 -> R.drawable.malphite_circle_27_pie_c_11_16
+                Champ.WARWICK_SKIN_35 -> R.drawable.warwick_circle_35_pie_c_11_16
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )
