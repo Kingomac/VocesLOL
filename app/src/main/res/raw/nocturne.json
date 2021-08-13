@@ -1,0 +1,88 @@
+{
+  "Attack": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/AttackChampion2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/AttackChampion2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/AttackChampion2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/AttackChampion2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/AttackChampion2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/AttackChampion2D6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/AttackChampion2D7.mp3"
+  ],
+  "Death": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/Death3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/Death3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/Death3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/Death3D4.mp3"
+  ],
+  "Joke": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/Joke3DGeneral.mp3"
+  ],
+  "Laugh": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/Laugh3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/Laugh3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/Laugh3DGeneral3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/Laugh3DGeneral4.mp3"
+  ],
+  "MoveOrder": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/MoveOrder2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/MoveOrder2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/MoveOrder2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/MoveOrder2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/MoveOrder2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/MoveOrder2D6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/MoveOrder2D7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/MoveOrder2D8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/MoveOrder2D9.mp3"
+  ],
+  "Basic": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneBasicAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneBasicAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneBasicAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneBasicAttack%20cast3D4.mp3"
+  ],
+  "Critical": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneCritAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneCritAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneCritAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneCritAttack%20cast3D4.mp3"
+  ],
+  "Duskbringer": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneDuskbringer%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneDuskbringer%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneDuskbringer%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneDuskbringer%20cast3D4.mp3"
+  ],
+  "Paranoia": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneParanoiaTargetChaosVO%20OnBuffActivate.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneParanoiaTargetChaosVO%20OnBuffActivate2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneParanoiaTargetChaosVO%20OnBuffActivate3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneParanoiaTargetChaosVO%20OnBuffActivate4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneParanoiaTargetOrderVO%20OnBuffActivate.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneParanoiaTargetOrderVO%20OnBuffActivate2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneParanoiaTargetOrderVO%20OnBuffActivate3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneParanoiaTargetOrderVO%20OnBuffActivate4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneParanoiaVO%20OnBuffActivate.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneParanoiaVO%20OnBuffActivate2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneParanoiaVO%20OnBuffActivate3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneParanoiaVO%20OnBuffActivate4.mp3"
+  ],
+  "ShroudofDarkness": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneShroudofDarknessBuff%20OnBuffActivate.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneShroudofDarknessBuff%20OnBuffActivate2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneShroudofDarknessBuff%20OnBuffActivate3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneShroudofDarknessBuff%20OnBuffActivate4.mp3"
+  ],
+  "UmbraBladesAttack": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneUmbraBladesAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneUmbraBladesAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneUmbraBladesAttack%20cast3D3.mp3"
+  ],
+  "UnspeakableHorror": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneUnspeakableHorror%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneUnspeakableHorror%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/NocturneUnspeakableHorror%20cast3D3.mp3"
+  ],
+  "Taunt": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/nocturne/Taunt3DGeneral.mp3"
+  ]
+}

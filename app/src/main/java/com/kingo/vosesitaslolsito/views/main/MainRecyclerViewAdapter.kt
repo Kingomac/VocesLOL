@@ -244,6 +244,24 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
                 Champ.NASUS_SKIN_5 -> R.drawable.nasus_circle_5
                 Champ.NASUS_SKIN_16 -> R.drawable.nasus_circle_16_pie_c_10_23
                 Champ.NASUS_SKIN_25 -> R.drawable.nasus_circle_25_pie_c_11_7
+                Champ.NIDALEE -> R.drawable.nidalee_circle
+                Champ.NIDALEE_SKIN_18 -> R.drawable.nidalee_circle_18_pie_c_10_24
+                Champ.NOCTURNE -> R.drawable.nocturne_circle_0
+                Champ.NOCTURNE_SKIN_5 -> R.drawable.nocturne_circle_5
+                Champ.NUNU -> R.drawable.nunu_circle_0
+                Champ.NUNU_SKIN_2 -> R.drawable.nunu_circle_2
+                Champ.NUNU_SKIN_4 -> R.drawable.nunu_circle_4
+                Champ.NUNU_SKIN_5 -> R.drawable.nunu_circle_5
+                Champ.NUNU_SKIN_6 -> R.drawable.nunu_circle_6
+                Champ.NUNU_SKIN_7 -> R.drawable.nunu_circle_7
+                Champ.NUNU_SKIN_8 -> R.drawable.nunu_circle_8
+                Champ.NUNU_SKIN_16 -> R.drawable.nunu_circle_16_pie_c_11_7
+                Champ.POPPY -> R.drawable.poppy_circle
+                Champ.POPPY_SKIN_16 ->  R.drawable.poppy_circle_16_pie_c_10_11
+                Champ.PYKE -> R.drawable.pyke_circle_0
+                Champ.PYKE_SKIN_1 -> R.drawable.pyke_circle_1
+                Champ.PYKE_SKIN_16 -> R.drawable.pyke_circle_16
+                Champ.PYKE_SKIN_25 -> R.drawable.pyke_circle_25_pie_c_10_19
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )
