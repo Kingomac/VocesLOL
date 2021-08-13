@@ -63,6 +63,8 @@
     <string name="fiddlesticks_skin_9">Fiddlesticks pretoriano</string>
     <string name="fiora">Fiora</string>
     <string name="fiora_skin_4">PROYECTO: Fiora</string>
+    <string name="galio">Galio</string>
+    <string name="galio_skin_4">Galio cancerbero</string>
     <string name="garen">Garen</string>
     <string name="garen_skin_13">Rey dios Garen</string>
     <string name="garen_skin_22">Garen Reinos mecha</string>
@@ -176,6 +178,15 @@
     <string name="pyke_skin_25">Pyke PsyOps</string>
     <string name="rakan">Rakan</string>
     <string name="rakan_skin_5">Rakan guardián de las estrellas</string>
+    <string name="renekton">Renekton</string>
+    <string name="renekton_skin_5">Renekton tierra abrasada</string>
+    <string name="renekton_skin_26">PROYECTO: Renekton</string>
+    <string name="rengar">Rengar</string>
+    <string name="rengar_skin_8">Rengar mecha</string>
+    <string name="riven">Riven</string>
+    <string name="riven_skin_6">Riven guerrera del orden</string>
+    <string name="riven_skin_16">Riven pulso de fuego</string>
+    <string name="riven_skin_18">Riven de recreativa</string>
     <string name="senna">Senna</string>
     <string name="senna_skin_1">Senna True Damage</string>
     <string name="senna_skin_10">Senna sola ante el peligro</string>

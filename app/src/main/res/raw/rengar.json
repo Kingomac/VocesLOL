@@ -1,0 +1,109 @@
+{
+  "Attack": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/AttackChampion2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/AttackChampion2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/AttackChampion2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/AttackChampion2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/AttackChampion2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/AttackChampion2D6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/AttackChampion2D7.mp3"
+  ],
+  "Death": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Death3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Death3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Death3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Death3D4.mp3"
+  ],
+  "Joke": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Joke3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Joke3DGeneral2.mp3"
+  ],
+  "Laugh": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Laugh3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Laugh3DGeneral2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Laugh3DGeneral3.mp3"
+  ],
+  "MoveOrder": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/MoveOrder2D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/MoveOrder2D10.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/MoveOrder2D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/MoveOrder2D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/MoveOrder2D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/MoveOrder2D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/MoveOrder2D6.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/MoveOrder2D7.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/MoveOrder2D8.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/MoveOrder2D9.mp3"
+  ],
+  "Others": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Others.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Others2.mp3"
+  ],
+  "Basic": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBasicAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBasicAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBasicAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBasicAttack%20cast3D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBasicAttack2%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBasicAttack2%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBasicAttack2%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBasicAttack2%20cast3D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBasicAttack3%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBasicAttack3%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBasicAttack3%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBasicAttack3%20cast3D4.mp3"
+  ],
+  "BonetoothStack": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBonetoothStack1-2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBonetoothStack1.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBonetoothStack2-2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBonetoothStack2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBonetoothStack3-2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBonetoothStack3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBonetoothStack4-2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBonetoothStack4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBonetoothStack5-2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarBonetoothStack5.mp3"
+  ],
+  "Critical": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarCritAttack%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarCritAttack%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarCritAttack%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarCritAttack%20cast3D4.mp3"
+  ],
+  "E": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarE%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarE%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarE%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarE%20cast3D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarE%20cast3D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarE%20cast3D6.mp3"
+  ],
+  "Q": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarQ%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarQ%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarQ%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarQ%20cast3D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarQEmp%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarQEmp%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarQEmp%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarQEmp%20cast3D4.mp3"
+  ],
+  "R": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarR%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarR%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarR%20cast3D3.mp3"
+  ],
+  "W": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarW%20cast3D.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarW%20cast3D2.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarW%20cast3D3.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarW%20cast3D4.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarW%20cast3D5.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/RengarW%20cast3D6.mp3"
+  ],
+  "Taunt": [
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Taunt3DGeneral.mp3",
+    "https://storage.googleapis.com/voces-lol.appspot.com/rengar/Taunt3DGeneral2.mp3"
+  ]
+}

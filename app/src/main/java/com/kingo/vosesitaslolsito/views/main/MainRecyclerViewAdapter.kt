@@ -275,6 +275,17 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
                 Champ.MALPHITE_SKIN_23 -> R.drawable.malphite_circle_23_skins_malphite_skin23
                 Champ.MALPHITE_SKIN_27 -> R.drawable.malphite_circle_27_pie_c_11_16
                 Champ.WARWICK_SKIN_35 -> R.drawable.warwick_circle_35_pie_c_11_16
+                Champ.GALIO -> R.drawable.galio_circle
+                Champ.GALIO_SKIN_4 -> R.drawable.galio_circle_4
+                Champ.RENEKTON -> R.drawable.renekton_circle_0
+                Champ.RENEKTON_SKIN_5 -> R.drawable.renekton_circle_5
+                Champ.RENEKTON_SKIN_26 -> R.drawable.renekton_circle_26_pie_c_11_11
+                Champ.RENGAR -> R.drawable.rengar_circle_0
+                Champ.RENGAR_SKIN_8 -> R.drawable.rengar_circle_8
+                Champ.RIVEN -> R.drawable.riven_circle
+                Champ.RIVEN_SKIN_6 -> R.drawable.riven_circle_6
+                Champ.RIVEN_SKIN_16 -> R.drawable.riven_circle_16
+                Champ.RIVEN_SKIN_18 -> R.drawable.riven_circle_18
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )
