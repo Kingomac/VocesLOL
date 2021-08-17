@@ -15,6 +15,7 @@ enum class Champ {
         AKALI_SKIN_32,
         AKSHAN,
         ANNIE,
+        ANNOUNCER_GLOBAL_FEMALE,
         APHELIOS,
         APHELIOS_SKIN_1,
         ASHE,
