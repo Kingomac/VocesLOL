@@ -320,7 +320,8 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
                 if(charSearch.isEmpty()) filteredChamps.addAll(dataSet)
                 else
                     dataSet.forEach { champ ->
-                        if(champ.name.lowercase().startsWith(charSearch.lowercase())) {
+                        val champName = applicationContext.resources.getString(applicationContext.resources.getIdentifier(champ.name.lowercase(), "string", applicationContext.packageName))
+                        if(champName.lowercase().contains(charSearch.lowercase()) || champ.name.lowercase().contains(charSearch.lowercase())) {
                             filteredChamps.add(champ)
                         }
                     }

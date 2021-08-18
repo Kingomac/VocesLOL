@@ -9,7 +9,6 @@ import com.google.android.material.tabs.TabLayoutMediator
 import com.kingo.vosesitaslolsito.databinding.ActivityVoicesBinding
 import com.kingo.vosesitaslolsito.util.JsonLinksParser
 import com.kingo.vosesitaslolsito.util.SoundsData
-import leakcanary.AppWatcher
 import java.io.InputStream
 
 class VoicesActivity : AppCompatActivity() {

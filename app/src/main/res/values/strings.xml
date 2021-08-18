@@ -26,6 +26,7 @@
     <string name="akshan">Akshan</string>
     <string name="annie">Annie</string>
     <string name="announcer_global_female">Anuncios con voz femenina</string>
+    <string name="announcer_tournament_female">Anuncios de torneo con voz femenina</string>
     <string name="aphelios">Aphelios</string>
     <string name="aphelios_skin_1">Aphelios heraldo del caos</string>
     <string name="ashe">Ashe</string>
@@ -212,6 +213,7 @@
     <string name="teemo">Teemo</string>
     <string name="teemo_skin_4">Teemo astronauta</string>
     <string name="teemo_skin_8">Teemo escuadrón omega</string>
+    <string name="tutorial">Tutorial</string>
     <string name="twitch">Twitch</string>
     <string name="twitch_skin_8">Twitch SSW</string>
     <string name="twitch_skin_12">Twitch rey del hielo</string>
