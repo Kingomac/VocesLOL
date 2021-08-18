@@ -1,14 +1,1 @@
-{
-  "kill": [
-    "https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/KillChampion3DFiddlesticks.mp3",
-    "https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/KillChampion3DIllaoi.mp3",
-    "https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/KillChampion3DNoxus.mp3",
-    "https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/KillChampion3DRekSai.mp3",
-    "https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/KillChampion3DTeemo.mp3",
-    "https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/KillChampion3DYasuo.mp3"
-  ],
-  "taunt": [
-    "https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/Taunt3DCaitlyn.mp3",
-    "https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/Taunt3DMissFortune.mp3"
-  ]
-}
+{"kill":["https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/KillChampion3DFiddlesticks.mp3","https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/KillChampion3DIllaoi.mp3","https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/KillChampion3DNoxus.mp3","https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/KillChampion3DRekSai.mp3","https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/KillChampion3DTeemo.mp3","https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/KillChampion3DYasuo.mp3"],"taunt":["https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/Taunt3DCaitlyn.mp3","https://storage.googleapis.com/voces-lol.appspot.com/jhin_skin_1/Taunt3DMissFortune.mp3"]}

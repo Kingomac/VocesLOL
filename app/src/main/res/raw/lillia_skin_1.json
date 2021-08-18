@@ -1,12 +1,1 @@
-{
-  "MoveFirst": [
-    "https://storage.googleapis.com/voces-lol.appspot.com/lillia_skin_1/Move2DFirst.mp3",
-    "https://storage.googleapis.com/voces-lol.appspot.com/lillia_skin_1/Move2DFirst2.mp3",
-    "https://storage.googleapis.com/voces-lol.appspot.com/lillia_skin_1/Move2DFirst3.mp3"
-  ],
-  "Recall": [
-    "https://storage.googleapis.com/voces-lol.appspot.com/lillia_skin_1/Recall3DGeneral.mp3",
-    "https://storage.googleapis.com/voces-lol.appspot.com/lillia_skin_1/Recall3DGeneral2.mp3",
-    "https://storage.googleapis.com/voces-lol.appspot.com/lillia_skin_1/Recall3DGeneral3.mp3"
-  ]
-}
+{"MoveFirst":["https://storage.googleapis.com/voces-lol.appspot.com/lillia_skin_1/Move2DFirst.mp3","https://storage.googleapis.com/voces-lol.appspot.com/lillia_skin_1/Move2DFirst2.mp3","https://storage.googleapis.com/voces-lol.appspot.com/lillia_skin_1/Move2DFirst3.mp3"],"Recall":["https://storage.googleapis.com/voces-lol.appspot.com/lillia_skin_1/Recall3DGeneral.mp3","https://storage.googleapis.com/voces-lol.appspot.com/lillia_skin_1/Recall3DGeneral2.mp3","https://storage.googleapis.com/voces-lol.appspot.com/lillia_skin_1/Recall3DGeneral3.mp3"]}
