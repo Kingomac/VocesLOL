@@ -246,4 +246,22 @@
     <string name="zoe">Zoe</string>
     <string name="zoe_skin_1">Zoe hacker</string>
 
+    <string name="ekko">Ekko</string>
+    <string name="ekko_skin_3">PROYECTO: Ekko</string>
+    <string name="ekko_skin_19">Ekko True Damage</string>
+    <string name="elise">Elise</string>
+    <string name="fizz">Fizz</string>
+    <string name="fizz_skin_4">Fizz del Vacío</string>
+    <string name="fizz_skin_10">Fizz escuadrón omega</string>
+    <string name="gangplank">Gangplank</string>
+    <string name="gangplank_skin_5">Gangplank fuerzas especiales</string>
+    <string name="gangplank_skin_6">Gangplank sultán</string>
+    <string name="gangplank_skin_7">Capitán Gangplank</string>
+    <string name="gnar">Gnar</string>
+    <string name="gnar_skin_13">Gnar supergaláctico</string>
+    <string name="gnar_skin_14">Gnar SSG</string>
+    <string name="gnar_skin_15">Gnar astronauta</string>
+    <string name="janna">Janna</string>
+    <string name="janna_skin_5">Janna chica del tiempo</string>
+
 </resources>

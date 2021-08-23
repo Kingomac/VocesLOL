@@ -286,6 +286,23 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
                 Champ.RIVEN_SKIN_6 -> R.drawable.riven_circle_6
                 Champ.RIVEN_SKIN_16 -> R.drawable.riven_circle_16
                 Champ.RIVEN_SKIN_18 -> R.drawable.riven_circle_18
+                Champ.EKKO -> R.drawable.ekko_circle
+                Champ.EKKO_SKIN_3 -> R.drawable.ekko_circle_3
+                Champ.EKKO_SKIN_19 -> R.drawable.ekko_circle_19
+                Champ.ELISE -> R.drawable.elise_circle
+                Champ.FIZZ -> R.drawable.fizz_circle_0
+                Champ.FIZZ_SKIN_4 -> R.drawable.fizz_circle_4
+                Champ.FIZZ_SKIN_10 -> R.drawable.fizz_circle_10
+                Champ.GANGPLANK -> R.drawable.gangplank_circle
+                Champ.GANGPLANK_SKIN_5 -> R.drawable.gangplank_circle_5
+                Champ.GANGPLANK_SKIN_6 -> R.drawable.gangplank_circle_6
+                Champ.GANGPLANK_SKIN_7 -> R.drawable.gangplank_circle_7
+                Champ.GNAR -> R.drawable.gnar_circle
+                Champ.GNAR_SKIN_13 -> R.drawable.gnar_circle_13
+                Champ.GNAR_SKIN_14 -> R.drawable.gnar_circle_14
+                Champ.GNAR_SKIN_15 -> R.drawable.gnar_circle_15_pie_c_10_11
+                Champ.JANNA -> R.drawable.janna_circle
+                Champ.JANNA_SKIN_5 -> R.drawable.janna_circle_5
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )
