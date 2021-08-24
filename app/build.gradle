@@ -12,8 +12,8 @@ android {
         applicationId "com.kingo.vosesitaslolsito"
         minSdkVersion 24
         targetSdkVersion 30
-        versionCode 7
-        versionName "0.4"
+        versionCode 8
+        versionName "0.4a"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

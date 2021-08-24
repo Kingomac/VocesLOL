@@ -263,5 +263,13 @@
     <string name="gnar_skin_15">Gnar astronauta</string>
     <string name="janna">Janna</string>
     <string name="janna_skin_5">Janna chica del tiempo</string>
+    
+    <string name="alistar">Alistar</string>
+    <string name="amumu">Amumu</string>
+    <string name="amumu_skin_7">Amumu robot triste</string>
+    <string name="anivia">Anivia</string>
+    <string name="anivia_skin_2">Anivia ave rapiña</string>
+    <string name="anivia_skin_5">Anivia escarcha oscura</string>
+    <string name="anivia_skin_17">Anivia vuelo cósmico</string>
 
 </resources>

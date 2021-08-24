@@ -303,6 +303,13 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
                 Champ.GNAR_SKIN_15 -> R.drawable.gnar_circle_15_pie_c_10_11
                 Champ.JANNA -> R.drawable.janna_circle
                 Champ.JANNA_SKIN_5 -> R.drawable.janna_circle_5
+                Champ.ALISTAR -> R.drawable.alistar_circle
+                Champ.AMUMU -> R.drawable.amumu_circle_0
+                Champ.AMUMU_SKIN_7 -> R.drawable.amumu_circle_7
+                Champ.ANIVIA -> R.drawable.cryophoenix_circle
+                Champ.ANIVIA_SKIN_2 -> R.drawable.anivia_circle_2
+                Champ.ANIVIA_SKIN_5 -> R.drawable.anivia_circle_5
+                Champ.ANIVIA_SKIN_17 -> R.drawable.anivia_circle_17_pie_c_10_24
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )
