@@ -310,6 +310,55 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
                 Champ.ANIVIA_SKIN_2 -> R.drawable.anivia_circle_2
                 Champ.ANIVIA_SKIN_5 -> R.drawable.anivia_circle_5
                 Champ.ANIVIA_SKIN_17 -> R.drawable.anivia_circle_17_pie_c_10_24
+                Champ.AURELIONSOL -> R.drawable.aurelionsol_circle
+                Champ.AURELIONSOL_SKIN_2 -> R.drawable.aurelionsol_circle_2
+                Champ.BRAND -> R.drawable.brand_circle_0
+                Champ.BRAND_SKIN_4 -> R.drawable.brand_circle_4
+                Champ.BRAND_SKIN_6 -> R.drawable.brand_circle_6
+                Champ.BRAND_SKIN_7 -> R.drawable.brand_circle_7
+                Champ.BRAUM -> R.drawable.braum_circle
+                Champ.BRAUM_SKIN_2 -> R.drawable.braum_circle_2
+                Champ.BRAUM_SKIN_24 -> R.drawable.braum_circle_24
+                Champ.CAMILLE -> R.drawable.camille_circle
+                Champ.CAMILLE_SKIN_1 -> R.drawable.camille_circle_1
+                Champ.CAMILLE_SKIN_2 -> R.drawable.camille_circle_2
+                Champ.CORKI -> R.drawable.corki_circle_0
+                Champ.CORKI_SKIN_26 -> R.drawable.corki_circle_26_pie_c_11_13
+                Champ.DARIUS -> R.drawable.darius_circle_0
+                Champ.DARIUS_SKIN_4 -> R.drawable.darius_circle_4
+                Champ.DARIUS_SKIN_15 -> R.drawable.darius_circle_15
+                Champ.DIANA -> R.drawable.diana_circle_0
+                Champ.DIANA_SKIN_12 -> R.drawable.diana_circle_12
+                Champ.DRAVEN -> R.drawable.draven_circle
+                Champ.DRAVEN_SKIN_1 -> R.drawable.draven_circle_1
+                Champ.DRAVEN_SKIN_2 -> R.drawable.draven_circle_2
+                Champ.DRAVEN_SKIN_3 -> R.drawable.draven_circle_3
+                Champ.DRAVEN_SKIN_13 -> R.drawable.draven_circle_13
+                Champ.DRAVEN_SKIN_20 -> R.drawable.draven_circle_20_pie_c_11_2
+                Champ.HECARIM -> R.drawable.hecarim_circle_0
+                Champ.HECARIM_SKIN_4 -> R.drawable.hecarim_circle_4
+                Champ.HECARIM_SKIN_7 -> R.drawable.hecarim_circle_7
+                Champ.HECARIM_SKIN_14 -> R.drawable.hecarim_circle_14_pie_c_10_24
+                Champ.HEIMERDINGER -> R.drawable.heimerdinger_circle
+                Champ.HEIMERDINGER_SKIN_6 -> R.drawable.heimerdinger_circle_6
+                Champ.ILLAOI -> R.drawable.illaoi_circle
+                Champ.ILLAOI_SKIN_1 -> R.drawable.illaoi_circle_1
+                Champ.ILLAOI_SKIN_2 -> R.drawable.illaoi_circle_2
+                Champ.ILLAOI_SKIN_10 -> R.drawable.illaoi_circle_10_pie_c_10_24
+                Champ.IVERN -> R.drawable.ivern_circle
+                Champ.IVERN_SKIN_1 -> R.drawable.ivern_circle_1
+                Champ.IVERN_SKIN_11 -> R.drawable.ivern_circle_11_pie_c_10_25
+                Champ.JARVANIV -> R.drawable.jarvaniv_circle_0
+                Champ.JARVANIV_SKIN_5 -> R.drawable.jarvaniv_circle_5
+                Champ.JARVANIV_SKIN_7 -> R.drawable.jarvaniv_circle_7
+                Champ.JAX -> R.drawable.jax_circle_0
+                Champ.JAX_SKIN_5 -> R.drawable.jax_circle_5
+                Champ.JAX_SKIN_13 -> R.drawable.jax_circle_13
+                Champ.JAX_SKIN_14 -> R.drawable.jax_circle_14
+                Champ.JAYCE -> R.drawable.jayce_circle
+                Champ.JAYCE_SKIN_1 -> R.drawable.jayce_circle_1
+                Champ.JAYCE_SKIN_3 -> R.drawable.jayce_circle_3
+                Champ.JAYCE_SKIN_5 -> R.drawable.jayce_circle_5
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )
@@ -329,7 +378,7 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
         return object : Filter() {
             override fun performFiltering(constraint: CharSequence?): FilterResults {
                 val charSearch = constraint.toString()
-                filteredChamps = if(charSearch.isEmpty()) {
+                /*filteredChamps = if(charSearch.isEmpty()) {
                     ArrayList(dataSet.toMutableList())
                 } else {
                     val resultList = ArrayList<Champ>()
@@ -339,13 +388,24 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
                         }
                     }
                     resultList
-                }
+                }*/
                 filteredChamps.clear()
                 if(charSearch.isEmpty()) filteredChamps.addAll(dataSet)
                 else
                     dataSet.forEach { champ ->
-                        val champName = applicationContext.resources.getString(applicationContext.resources.getIdentifier(champ.name.lowercase(), "string", applicationContext.packageName))
-                        if(champName.lowercase().contains(charSearch.lowercase()) || champ.name.lowercase().contains(charSearch.lowercase())) {
+                        val champName = try {
+                            applicationContext.resources.getString(
+                                applicationContext.resources.getIdentifier(
+                                    champ.name.lowercase(),
+                                    "string",
+                                    applicationContext.packageName
+                                )
+                            )
+                        } catch(ex: Exception) {
+                            Log.e("PERFORM FILTERING", "ERROR PERFORMING FILTERING WITH Champ: ${champ.name}")
+                            champ.name
+                        }
+                        if(champ.name.lowercase().contains(charSearch.lowercase()) || champName.lowercase().contains(charSearch.lowercase())) {
                             filteredChamps.add(champ)
                         }
                     }

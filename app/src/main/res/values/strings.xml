@@ -272,4 +272,55 @@
     <string name="anivia_skin_5">Anivia escarcha oscura</string>
     <string name="anivia_skin_17">Anivia vuelo cósmico</string>
 
+    <string name="aurelionsol">Aurelion Sol</string>
+    <string name="aurelionsol_skin_2">Aurelion Sol mecha</string>
+    <string name="brand">Brand</string>
+    <string name="brand_skin_4">Brand zombi</string>
+    <string name="brand_skin_6">Brand jefe de batalla</string>
+    <string name="brand_skin_7">Brand luz celestial</string>
+    <string name="braum">Braum</string>
+    <string name="braum_skin_2">El tigre Braum</string>
+    <string name="braum_skin_24">Braum subidón de azúcar</string>
+    <string name="camille">Camille</string>
+    <string name="camille_skin_1">Programa Camille</string>
+    <string name="camille_skin_2">Camille aquelarre</string>
+    <string name="corki">Corki</string>
+    <string name="corki_skin_26">Corki astronauta</string>
+    <string name="darius">Darius</string>
+    <string name="darius_skin_4">Darius rey del mate</string>
+    <string name="darius_skin_15">Rey dios Darius</string>
+    <string name="diana">Diana</string>
+    <string name="diana_skin_12">Diana aguas oscuras</string>
+    <string name="draven">Draven</string>
+    <string name="draven_skin_1">Draven usurpador de almas</string>
+    <string name="draven_skin_2">Draven gladiador</string>
+    <string name="draven_skin_3">Draven locutor estrella</string>
+    <string name="draven_skin_13">Draven reinos mecha</string>
+    <string name="draven_skin_20">Draven arruinado</string>
+
+    <string name="hecarim">Hecarim</string>
+    <string name="hecarim_skin_14">Hecarim corcel cósmico</string>
+    <string name="hecarim_skin_4">Hecarim de recreativa</string>
+    <string name="hecarim_skin_7">Hecarim lancero invicto</string>
+    <string name="heimerdinger">Heimerdinger</string>
+    <string name="heimerdinger_skin_6">Heimerdinger domador de dragones</string>
+    <string name="illaoi">Illaoi</string>
+    <string name="illaoi_skin_1">Illaoi del Vacío</string>
+    <string name="illaoi_skin_10">Illaoi invocadora cósmica</string>
+    <string name="illaoi_skin_2">Illaoi de la resistencia</string>
+    <string name="ivern">Ivern</string>
+    <string name="ivern_skin_1">Ivern rey de las golosinas</string>
+    <string name="ivern_skin_11">Ivern dios antiguo</string>
+    <string name="jarvaniv">Jarvan IV</string>
+    <string name="jarvaniv_skin_5">Jarvan IV Reinos Combatientes</string>
+    <string name="jarvaniv_skin_7">Jarvan IV estrella oscura</string>
+    <string name="jax">Jax</string>
+    <string name="jax_skin_13">Jax bastón divino</string>
+    <string name="jax_skin_14">Jax reinos mecha</string>
+    <string name="jax_skin_5">Jáximus</string>
+    <string name="jayce">Jayce</string>
+    <string name="jayce_skin_1">Jayce armadura completa</string>
+    <string name="jayce_skin_3">Jayce proscrito</string>
+    <string name="jayce_skin_5">Jayce academia de combate</string>
+
 </resources>
