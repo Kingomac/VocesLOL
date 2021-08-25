@@ -359,6 +359,33 @@ class MainRecyclerViewAdapter(private val dataSet: Array<Champ>, private val app
                 Champ.JAYCE_SKIN_1 -> R.drawable.jayce_circle_1
                 Champ.JAYCE_SKIN_3 -> R.drawable.jayce_circle_3
                 Champ.JAYCE_SKIN_5 -> R.drawable.jayce_circle_5
+                Champ.KALISTA -> R.drawable.kalista_circle_0
+                Champ.KALISTA_SKIN_5 -> R.drawable.kalista_circle_5_skins_kalista_skin05
+                Champ.KARMA -> R.drawable.karma_circle
+                Champ.KARMA_SKIN_3 -> R.drawable.karma_circle_3
+                Champ.KARMA_SKIN_8 -> R.drawable.karma_circle_8
+                Champ.KARMA_SKIN_27 -> R.drawable.karma_circle_27_pie_c_11_2
+                Champ.KARTHUS -> R.drawable.karthus_circle
+                Champ.KARTHUS_SKIN_4 -> R.drawable.karthus_circle_4
+                Champ.KASSADIN -> R.drawable.kassadin_circle_0
+                Champ.KASSADIN_SKIN_5 -> R.drawable.kassadin_circle_5
+                Champ.KAYLE -> arrayOf(R.drawable.kayle_circle_0, R.drawable.kayle_circle_0_lvl11).random()
+                Champ.KAYLE_SKIN_6 -> arrayOf(R.drawable.kayle_circle_6, R.drawable.kayle_circle_6_lvl11).random()
+                Champ.KAYN -> R.drawable.kayn_circle
+                Champ.KAYN_SKIN_2 -> R.drawable.kayn_circle_2
+                Champ.KENNEN -> R.drawable.kennen_circle
+                Champ.KHAZIX -> R.drawable.khazix_circle
+                Champ.KHAZIX_SKIN_1 -> R.drawable.khazix_circle_1
+                Champ.KHAZIX_SKIN_60 -> R.drawable.khazix_circle_60_pie_c_legacy_bugs_10_22
+                Champ.KINDRED -> R.drawable.kindred_circle
+                Champ.KLED -> R.drawable.kled_circle
+                Champ.KLED_SKIN_9 -> R.drawable.kled_circle_9_skins_kled_skin09
+                Champ.KOGMAW -> R.drawable.kogmaw_circle_0
+                Champ.KOGMAW_SKIN_4 -> R.drawable.kogmaw_circle_4
+                Champ.KOGMAW_SKIN_8 -> R.drawable.kogmaw_circle_8
+                Champ.LEBLANC -> R.drawable.leblanc_circle_0
+                Champ.LEBLANC_SKIN_12 -> R.drawable.leblanc_circle_12
+                Champ.LEBLANC_SKIN_20 -> R.drawable.leblanc_circle_20
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )

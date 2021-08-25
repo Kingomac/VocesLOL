@@ -323,4 +323,32 @@
     <string name="jayce_skin_3">Jayce proscrito</string>
     <string name="jayce_skin_5">Jayce academia de combate</string>
 
+    <string name="kalista">Kalista</string>
+    <string name="kalista_skin_5">Kalista yelmo sombrío</string>
+    <string name="karma">Karma</string>
+    <string name="karma_skin_27">Karma arruinada</string>
+    <string name="karma_skin_3">Karma tradicional</string>
+    <string name="karma_skin_8">Karma estrella oscura</string>
+    <string name="karthus">Karthus</string>
+    <string name="karthus_skin_4">Karthus Pentakill</string>
+    <string name="kassadin">Kassadin</string>
+    <string name="kassadin_skin_5">Kassadin segador cósmico</string>
+
+    <string name="kayle">Kayle</string>
+    <string name="kayle_skin_6">Kayle alas etéreas</string>
+    <string name="kayn">Kayn</string>
+    <string name="kayn_skin_2">Kayn de Odisea</string>
+    <string name="kennen">Kennen</string>
+    <string name="khazix">Kha\'Zix</string>
+    <string name="khazix_skin_1">Kha\'Zix mecha</string>
+    <string name="khazix_skin_60">Kha\'Zix de Odisea</string>
+    <string name="kindred">Kindred</string>
+    <string name="kled">Kled</string>
+    <string name="kled_skin_9">Kled yelmo sombrío</string>
+    <string name="kogmaw">Kog\'Maw</string>
+    <string name="kogmaw_skin_4">Kog\'Maw reno</string>
+    <string name="kogmaw_skin_8">Kog\'Maw máquina de guerra</string>
+    <string name="leblanc">LeBlanc</string>
+    <string name="leblanc_skin_12">Programa LeBlanc</string>
+    <string name="leblanc_skin_20">LeBlanc aquelarre</string>
 </resources>
