@@ -351,4 +351,38 @@
     <string name="leblanc">LeBlanc</string>
     <string name="leblanc_skin_12">Programa LeBlanc</string>
     <string name="leblanc_skin_20">LeBlanc aquelarre</string>
+
+    <string name="malzahar">Malzahar</string>
+    <string name="malzahar_skin_6">Malzahar jefe de batalla</string>
+    <string name="maokai">Maokai</string>
+    <string name="maokai_skin_24">Maokai astronauta</string>
+    <string name="olaf">Olaf</string>
+    <string name="olaf_skin_3">Brolaf</string>
+    <string name="orianna">Orianna</string>
+    <string name="ornn">Ornn</string>
+    <string name="pantheon">Pantheon</string>
+    <string name="pantheon_skin_25">Pantheon arruinado</string>
+    <string name="pantheon_skin_6">Pantheon matadragones</string>
+
+    <string name="qiyana">Qiyana</string>
+    <string name="qiyana_skin_1">Qiyana jefa de batalla</string>
+    <string name="quinn">Quinn</string>
+    <string name="quinn_skin_5">Quinn coraza plateada</string>
+
+    <string name="rammus">Rammus</string>
+    <string name="rammus_skin_17">Rammus astronauta</string>
+    <string name="rammus_skin_8">Rammus líbero</string>
+    <string name="reksai">Rek\'Sai</string>
+    <string name="reksai_skin_1">Rek\'Sai eterna</string>
+    <string name="rell">Rell</string>
+    <string name="rumble">Rumble</string>
+    <string name="rumble_skin_13">Rumble onda espacial</string>
+    <string name="rumble_skin_3">Rumble supergaláctico</string>
+    <string name="ryze">Ryze</string>
+    <string name="samira">Samira</string>
+    <string name="samira_skin_1">Samira PsyOps</string>
+    <string name="sejuani">Sejuani</string>
+    <string name="sejuani_skin_16">PROYECTO: Sejuani</string>
+    <string name="sejuani_skin_3">Sejuani tradicional</string>
+
 </resources>
