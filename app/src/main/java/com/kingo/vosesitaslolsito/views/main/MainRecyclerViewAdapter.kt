@@ -430,6 +430,36 @@ class MainRecyclerViewAdapter(
                 Champ.SEJUANI -> R.drawable.sejuani_circle_0
                 Champ.SEJUANI_SKIN_16 -> R.drawable.sejuani_circle_16_pie_c_11_11
                 Champ.SEJUANI_SKIN_3 -> R.drawable.sejuani_circle_3
+                Champ.SHACO -> R.drawable.jester_circle
+                Champ.SHACO_SKIN_8 -> R.drawable.shaco_circle_8
+                Champ.SHACO_SKIN_23 -> R.drawable.shaco_circle_23_pie_c_11_17
+                Champ.SHEN -> R.drawable.shen_circle
+                Champ.SHEN_SKIN_15 -> R.drawable.shen_circle_15
+                Champ.SHEN_SKIN_22 -> R.drawable.shen_circle_22_pie_c_10_18
+                Champ.SHYVANA -> R.drawable.shyvana_circle_0
+                Champ.SHYVANA_SKIN_8 -> R.drawable.shyvana_circle_8_pie_c_11_2
+                Champ.SINGED -> R.drawable.singed_circle_0
+                Champ.SINGED_SKIN_10 -> R.drawable.singed_circle_10_pie_c_10_23
+                Champ.SION -> R.drawable.sion_circle
+                Champ.SION_SKIN_5 -> R.drawable.sion_circle_5
+                Champ.SIVIR -> R.drawable.sivir_circle
+                Champ.SKARNER -> R.drawable.skarner_circle
+                Champ.SKARNER_SKIN_3 -> R.drawable.skarner_circle_3
+                Champ.SKARNER_SKIN_5 -> R.drawable.skarner_circle_5_pie_c_10_24
+                Champ.SWAIN -> R.drawable.swain_circle_0
+                Champ.SWAIN_SKIN_1 -> R.drawable.swain_circle_1
+                Champ.SWAIN_SKIN_2 -> R.drawable.swain_circle_2
+                Champ.SWAIN_SKIN_3 -> R.drawable.swain_circle_3
+                Champ.SWAIN_SKIN_4 -> R.drawable.swain_circle_4
+                Champ.SYLAS -> R.drawable.sylas_circle_0
+                Champ.SYLAS_SKIN_13 -> R.drawable.sylas_circle_13_pie_c_11_11
+                Champ.SYNDRA -> R.drawable.syndra_circle_0
+                Champ.TAHMKENCH -> R.drawable.tahmkench_circle
+                Champ.TALIYAH -> R.drawable.taliyah_circle
+                Champ.TALIYAH_SKIN_1 -> R.drawable.taliyah_circle_1
+                Champ.TALON -> R.drawable.talon_circle_0
+                Champ.TARIC -> R.drawable.taric_circle
+                Champ.TARIC_SKIN_4 -> R.drawable.taric_circle_4
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )

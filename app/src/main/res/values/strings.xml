@@ -385,4 +385,36 @@
     <string name="sejuani_skin_16">PROYECTO: Sejuani</string>
     <string name="sejuani_skin_3">Sejuani tradicional</string>
 
+    <string name="shaco">Shaco</string>
+    <string name="shaco_skin_8">Shaco estrella oscura</string>
+    <string name="shaco_skin_23">Shaco Pesadilla en la Ciudad sin ley</string>
+    <string name="shen">Shen</string>
+    <string name="shen_skin_15">Shen pulso de fuego</string>
+    <string name="shen_skin_22">Shen PsyOps</string>
+    <string name="shyvana">Shyvana</string>
+    <string name="shyvana_skin_8">Shyvana arruinada</string>
+    <string name="singed">Singed</string>
+    <string name="singed_skin_10">Singed de la resistencia</string>
+    <string name="sion">Sion</string>
+    <string name="sion_skin_5">Sion mecha cero</string>
+    <string name="sivir">Sivir</string>
+    <string name="skarner">Skarner</string>
+    <string name="skarner_skin_3">Skarner máquina de guerra alfa</string>
+    <string name="skarner_skin_5">Skarner aguijón cósmico</string>
+
+    <string name="swain">Swain</string>
+    <string name="swain_skin_1">Swain frente norte</string>
+    <string name="swain_skin_2">Swain Aguas Estancadas</string>
+    <string name="swain_skin_3">Swain tirano</string>
+    <string name="swain_skin_4">Swain maestro de dragones</string>
+    <string name="sylas">Sylas</string>
+    <string name="sylas_skin_13">PROYECTO: Sylas</string>
+    <string name="syndra">Syndra</string>
+    <string name="tahmkench">Tahm Kench</string>
+    <string name="taliyah">Taliyah</string>
+    <string name="taliyah_skin_1">Taliyah Freljord</string>
+    <string name="talon">Talon</string>
+    <string name="taric">Taric</string>
+    <string name="taric_skin_4">Taric fiesta en la piscina</string>
+
 </resources>
