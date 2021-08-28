@@ -417,4 +417,21 @@
     <string name="taric">Taric</string>
     <string name="taric_skin_4">Taric fiesta en la piscina</string>
 
+    <string name="thresh">Thresh</string>
+    <string name="thresh_skin_5">Thresh estrella oscura</string>
+    <string name="thresh_skin_17">Thresh florecer espiritual</string>
+    <string name="thresh_skin_27">Thresh desatado</string>
+    <string name="tristana">Tristana</string>
+    <string name="tristana_skin_10">Tristana domadora de dragones</string>
+    <string name="tristana_skin_24">Tristana diablialla</string>
+    <string name="trundle">Trundle</string>
+    <string name="trundle_skin_3">Trundle tradicional</string>
+    <string name="tryndamere">Tryndamere</string>
+    <string name="tryndamere_skin_4">Tryndamere hoja demoníaca</string>
+    <string name="tryndamere_skin_5">Tryndamere sultán</string>
+    <string name="tryndamere_skin_9">Tryndamere tecnoquímico</string>
+    <string name="twistedfate">Twisted Fate</string>
+    <string name="twistedfate_skin_11">Twisted Fate pulso de fuego</string>
+    <string name="twistedfate_skin_25">Twisted Fate Pesadilla en la Ciudad sin ley</string>
+
 </resources>

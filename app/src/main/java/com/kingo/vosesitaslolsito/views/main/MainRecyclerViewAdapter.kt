@@ -460,6 +460,22 @@ class MainRecyclerViewAdapter(
                 Champ.TALON -> R.drawable.talon_circle_0
                 Champ.TARIC -> R.drawable.taric_circle
                 Champ.TARIC_SKIN_4 -> R.drawable.taric_circle_4
+                Champ.THRESH -> R.drawable.thresh_circle
+                Champ.THRESH_SKIN_5 -> R.drawable.thresh_circle_5
+                Champ.THRESH_SKIN_17 -> R.drawable.thresh_circle_17_pie_c_10_15
+                Champ.THRESH_SKIN_27 -> R.drawable.thresh_circle_27_skins_thresh_skin27
+                Champ.TRISTANA -> R.drawable.tristana_circle
+                Champ.TRISTANA_SKIN_10 -> R.drawable.tristana_circle_10
+                Champ.TRISTANA_SKIN_24 -> R.drawable.tristana_circle_24
+                Champ.TRUNDLE -> R.drawable.trundle_circle
+                Champ.TRUNDLE_SKIN_3 -> R.drawable.trundle_circle_3
+                Champ.TRYNDAMERE -> R.drawable.tryndamere_circle
+                Champ.TRYNDAMERE_SKIN_4 -> R.drawable.tryndamere_circle_4
+                Champ.TRYNDAMERE_SKIN_5 -> R.drawable.tryndamere_circle_5
+                Champ.TRYNDAMERE_SKIN_9 -> R.drawable.tryndamere_circle_9
+                Champ.TWISTEDFATE -> R.drawable.twistedfate_circle_0
+                Champ.TWISTEDFATE_SKIN_11 -> R.drawable.twistedfate_circle_11
+                Champ.TWISTEDFATE_SKIN_25 -> R.drawable.twistedfate_circle_25_pie_c_11_17
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )
