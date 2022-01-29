@@ -4,8 +4,8 @@ import ray
 from pydub import AudioSegment
 
 
-INPUT_DIR = "./output/"
-OUTPUT_DIR = "./files/gwen/"
+INPUT_DIR = "D:/Modding/output/"
+OUTPUT_DIR = "./prueba/gragas1/"
 
 
 @ray.remote

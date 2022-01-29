@@ -12,7 +12,7 @@ def alphanumeric(data: list):
     return sorted(data, key=alphanum_key)
 
 
-def listdir(path: str):
+def listdir(path: str) -> list[str]:
     return winsort(os.listdir(path))
 
 

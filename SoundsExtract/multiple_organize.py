@@ -3,7 +3,7 @@ from pydub import AudioSegment
 import shutil
 from delete import remove_files_from_dir
 import ray
-import input_champs
+import src.input_champs as input_champs
 
 
 def get_skin_num(skin: str):

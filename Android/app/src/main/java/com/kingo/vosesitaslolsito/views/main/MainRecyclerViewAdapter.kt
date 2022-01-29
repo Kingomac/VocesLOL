@@ -423,7 +423,7 @@ class MainRecyclerViewAdapter(
                 Champ.RELL -> R.drawable.rell_circle_0_darksupport
                 Champ.RUMBLE -> R.drawable.rumble_circle
                 Champ.RUMBLE_SKIN_13 -> R.drawable.rumble_circle_13_pie_c_11_7
-                Champ.RUMBLE_SKIN_3 -> R.drawable.rumble_circle_13_pie_c_11_7
+                Champ.RUMBLE_SKIN_3 -> R.drawable.rumble_circle_3
                 Champ.RYZE -> R.drawable.ryze_circle_0
                 Champ.SAMIRA -> R.drawable.samira_circle_0_samira
                 Champ.SAMIRA_SKIN_1 -> R.drawable.samira_circle_1_samira
@@ -476,6 +476,65 @@ class MainRecyclerViewAdapter(
                 Champ.TWISTEDFATE -> R.drawable.twistedfate_circle_0
                 Champ.TWISTEDFATE_SKIN_11 -> R.drawable.twistedfate_circle_11
                 Champ.TWISTEDFATE_SKIN_25 -> R.drawable.twistedfate_circle_25_pie_c_11_17
+                Champ.AATROX_SKIN_1 -> R.drawable.aatrox_circle_1
+                Champ.AATROX_SKIN_11 -> R.drawable.aatrox_circle_11_pie_c_10_21
+                Champ.AATROX_SKIN_2 -> R.drawable.aatrox_circle_2
+                Champ.AKALI_SKIN_50 -> R.drawable.akali_circle_50_pie_c_11_17
+                Champ.AMUMU_SKIN_34 -> R.drawable.amumu_circle_34_pie_c_12_2
+                Champ.CHOGATH_SKIN_7 -> R.drawable.chogath_circle_7
+                Champ.DARIUS_SKIN_33 -> R.drawable.darius_circle_33_pie_c_11_17
+                Champ.DRMUNDO_SKIN_3 -> R.drawable.drmundo_circle_3_dr_mundo_vgu
+                Champ.EZREAL_SKIN_25 -> R.drawable.ezreal_circle_25_pie_c_12_2
+                Champ.GRAGAS -> R.drawable.gragas
+                Champ.GRAGAS_SKIN_10 -> R.drawable.gragas_circle_10
+                Champ.GRAGAS_SKIN_11 -> R.drawable.gragas_circle_11_pie_c_11_1
+                Champ.UDYR -> R.drawable.udyr
+                Champ.UDYR_SKIN_3 -> R.drawable.udyr_circle_3
+                Champ.URGOT -> R.drawable.urgot
+                Champ.URGOT_SKIN_1 -> R.drawable.urgot_circle_1
+                Champ.URGOT_SKIN_3 -> R.drawable.urgot_circle_3
+                Champ.VELKOZ -> R.drawable.velkoz
+                Champ.VELKOZ_SKIN_1 -> R.drawable.velkoz_circle_1
+                Champ.VELKOZ_SKIN_2 -> R.drawable.velkoz
+                Champ.VEX -> R.drawable.vex
+                Champ.VI -> R.drawable.vi
+                Champ.VIKTOR -> R.drawable.viktor
+                Champ.VIKTOR_SKIN_5 -> R.drawable.viktor_circle_5_pie_c_10_19
+                Champ.VI_SKIN_11 -> R.drawable.vi_circle_11
+                Champ.VI_SKIN_4 -> R.drawable.vi_circle_4
+                Champ.VLADIMIR -> R.drawable.vladimir
+                Champ.VLADIMIR_SKIN_21 -> R.drawable.vladimir_circle_21_pie_c_10_24
+                Champ.VLADIMIR_SKIN_5 -> R.drawable.vladimir_circle_5
+                Champ.VLADIMIR_SKIN_8 -> R.drawable.vladimir_circle_8
+                Champ.XERATH -> R.drawable.xerath
+                Champ.XERATH_SKIN_5 -> R.drawable.xerath_circle_5_skins_xerath_skin05
+                Champ.XINZHAO -> R.drawable.xinzhao
+                Champ.XINZHAO_SKIN_20 -> R.drawable.xinzhao_circle_20
+                Champ.XINZHAO_SKIN_27 -> R.drawable.xinzhao_circle_27_skins_xinzhao_skin27
+                Champ.XINZHAO_SKIN_5 -> R.drawable.xinzhao_circle_5
+                Champ.YASUO_SKIN_17 -> R.drawable.yasuo_circle_17
+                Champ.YASUO_SKIN_2 -> R.drawable.yasuo_circle_2
+                Champ.YASUO_SKIN_54 -> R.drawable.yasuo_circle_54_pie_c_11_21
+                Champ.YASUO_SKIN_55 -> R.drawable.yasuo_circle_55_pie_c_11_21
+                Champ.YASUO_SKIN_9 -> R.drawable.yasuo_circle_9
+                Champ.YONE_SKIN_19 -> R.drawable.yone_circle_19_pie_c_11_19
+                Champ.YORICK -> R.drawable.yorick
+                Champ.YUUMI -> R.drawable.yuumi_circle_0
+                Champ.ZAC -> R.drawable.zac
+                Champ.ZAC_SKIN_7 -> R.drawable.zac_circle_7_pie_c_10_23
+                Champ.ZED -> R.drawable.zed
+                Champ.ZED_SKIN_13 -> R.drawable.zed_circle_13
+                Champ.ZED_SKIN_15 -> R.drawable.zed_circle_15_pie_c_10_19
+                Champ.ZED_SKIN_3 -> R.drawable.zed_circle_3
+                Champ.ZED_SKIN_31 -> R.drawable.zed_circle_31_pie_c_11_24
+                Champ.ZERI -> R.drawable.zeri_circle_0_zeri
+                Champ.ZIGGS -> R.drawable.ziggs
+                Champ.ZIGGS_SKIN_6 -> R.drawable.ziggs_circle_6
+                Champ.ZILEAN -> R.drawable.zilean
+                Champ.ZOE_SKIN_9 -> R.drawable.zoe_circle_9
+                Champ.ZYRA -> R.drawable.zyra
+                Champ.ZYRA_SKIN_16 -> R.drawable.zyra_circle_16_pie_c_11_17
+                Champ.ZYRA_SKIN_5 -> R.drawable.zyra_circle_5
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )
