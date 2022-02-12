@@ -1,24 +1,22 @@
+import sort
 import os
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import storage
 import time
 import json
-import sys
-sys.path.insert(0, "D:\\Projects\\VocesLOL\\SoundsExtract")
-import sort
 
 INPUT_DIR = "./output/"
 OUTPUT_DIR = "./newjson/"
 
 
 def get_key(filename: str):
-    word_beggings = ["FirstEncounter", "EnemyFirstEncounter", "Kill", "Attack", "Joke", "Death", "Laugth", "Dance", "Near", "Ping", "UseItem",
-                     "Recall", "Taunt", "Move", "Basic", "Critical", "Respawn", "Animations", "Receive", "Q", "W", "E", "R"]
+    word_beggings = ["FirstEncounter", "EnemyFirstEncounter", "Kill", "Attack", "Joke", "Death", "Laugh", "Dance", "Near", "Ping", "UseItem",
+                     "Recall", "Taunt", "Move", "Basic", "Critical", "BuyItem", "Respawn", "Spell", "Other", "Animations", "Receive", "Passive", "SpecialWeapon", "Q", "W", "E", "R"]
     for i in word_beggings:
         if filename.startswith(i):
             return i.replace('.mp3', '')
-    return filename.replace(".mp3", '')
+    return "".join([i for i in filename.replace('.mp3', '') if not i.isdigit()])
 
 
 def upload_skin(input_dir: str, champ: str, skin: str):
@@ -65,5 +63,11 @@ if __name__ == '__main__':
     bucket = storage.bucket()
 
     for champ in os.listdir(INPUT_DIR):
+        if not os.path.isdir(f'{INPUT_DIR}/{champ}'):
+            print(f'{INPUT_DIR}/{champ} is not a champ directory')
+            continue
         for skin in os.listdir(f'{INPUT_DIR}/{champ}'):
+            if not os.path.isdir(f'{INPUT_DIR}/{champ}/{skin}'):
+                print(f'{INPUT_DIR}/{champ} is not a champ directory')
+                continue
             upload_skin(INPUT_DIR, champ, skin)

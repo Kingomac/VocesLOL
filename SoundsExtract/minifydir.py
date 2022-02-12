@@ -1,7 +1,7 @@
 import os
 import ujson
 
-INPUT_DIR = "./files/"
+INPUT_DIR = "./newjson/"
 
 if __name__ == '__main__':
     for i in os.listdir(INPUT_DIR):

@@ -1,7 +1,7 @@
 import os
 import ujson
 
-input_dir = "D:/Projects/VocesLOL/app/src/main/res/raw/"
+input_dir = "./json/"
 
 if __name__ == "__main__":
     cont = 0

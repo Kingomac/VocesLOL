@@ -36,20 +36,25 @@ def check_subdirs(directory: str):
                         os.path.join(directory, "___Others", i))
 
 
-def delete_from_string(input: str, *look_for: str) -> str:
-    toret = input
+def delete_from_string(term: str, *look_for: str) -> str:
+    toret = term
     for i in look_for:
         toret = toret.replace(i, "")
     return toret
 
 
-def generate_output_filename(inputname: str, champ_name: str, cont: int) -> str:
-    output: str = "".join(inputname.split("_")[3:])
+def sound_name_tweak(sound: str, champ_name: str) -> str:
+    output: str = "".join(sound.split("_")[3:])
     output = re.compile(champ_name, re.IGNORECASE).sub(
         "", output)  # Replace champ_name case insensitive
     output = delete_from_string(output, '2D', '3D', 'General')
     output = output.replace('BasicAttack', 'Basic').replace(
         'CritAttack', 'Critical').replace('OnBuff', 'Buff')
+    return output
+
+
+def generate_output_filename(inputname: str, champ_name: str, cont: int) -> str:
+    output = sound_name_tweak(inputname, champ_name)
     if cont == 1:
         return f'{output}.mp3'
     return f'{output}{cont}.mp3'
@@ -73,11 +78,16 @@ if __name__ == '__main__':
             continue
         for skin in os.listdir(f'{INPUT_DIR}/{champ}/'):
             check_subdirs(f'{INPUT_DIR}/{champ}/{skin}')
-            cont = 1
             for sound_dir in os.listdir(f'{INPUT_DIR}/{champ}/{skin}'):
+                cont = 1
+                last_tweak = ""
                 for sound in os.listdir(f'{INPUT_DIR}/{champ}/{skin}/{sound_dir}'):
+                    if sound_name_tweak(sound, champ) != last_tweak:
+                        cont = 1
                     futures.append(soundcopy.remote(
                         INPUT_DIR, champ, skin, sound_dir, sound, cont))
+                    last_tweak = sound_name_tweak(sound, champ)
+                    cont += 1
     for i in ray.get(futures):
         print(i)
     for champ in os.listdir(INPUT_DIR):

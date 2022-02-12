@@ -1,7 +1,8 @@
 import os
-import src.input_champs as input_champs
+#import src.input_champs as input_champs
 
-champs = input_champs.CHAMPS
+#champs = input_champs.CHAMPS
+champs = ["zeri", 'caitlyn']
 mod_path = "D:/Modding/LOL/"
 
 if __name__ == "__main__":
