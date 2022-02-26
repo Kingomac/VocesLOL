@@ -303,6 +303,8 @@ enum class Champ {
         REKSAI,
         REKSAI_SKIN_1,
         RELL,
+        RENATA,
+        RENATA_SKIN_1,
         RENEKTON,
         RENEKTON_SKIN_26,
         RENEKTON_SKIN_5,

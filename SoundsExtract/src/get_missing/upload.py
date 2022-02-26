@@ -12,7 +12,7 @@ OUTPUT_DIR = "./newjson/"
 
 def get_key(filename: str):
     word_beggings = ["FirstEncounter", "EnemyFirstEncounter", "Kill", "Attack", "Joke", "Death", "Laugh", "Dance", "Near", "Ping", "UseItem",
-                     "Recall", "Taunt", "Move", "Basic", "Critical", "BuyItem", "Respawn", "Spell", "Other", "Animations", "Receive", "Passive", "SpecialWeapon", "Q", "W", "E", "R"]
+                     "Recall", "Taunt", "MoveFirst", "MoveStandard", "MoveLong", "Move", "Basic", "Critical", "BuyItem", "Respawn", "Spell", "Other", "Animations", "Receive", "Passive", "SpecialWeapon", "Q", "W", "E", "R"]
     for i in word_beggings:
         if filename.startswith(i):
             return i.replace('.mp3', '')
@@ -55,9 +55,9 @@ def upload_skin(input_dir: str, champ: str, skin: str):
 
 if __name__ == '__main__':
     cred = credentials.Certificate(
-        "credentials\\prueba-d1c99-firebase-adminsdk-ogmm4-f38f4be1f2.json")
+        "credentials\\memeshare-a3107-firebase-adminsdk-u4zc0-0c4d2b4e35.json")
     firebase_admin.initialize_app(cred, {
-        'storageBucket': 'prueba-d1c99.appspot.com'
+        'storageBucket': 'memeshare-a3107.appspot.com'
     })
 
     bucket = storage.bucket()

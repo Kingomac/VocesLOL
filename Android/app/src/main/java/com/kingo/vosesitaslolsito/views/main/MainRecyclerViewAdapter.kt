@@ -535,6 +535,8 @@ class MainRecyclerViewAdapter(
                 Champ.ZYRA -> R.drawable.zyra
                 Champ.ZYRA_SKIN_16 -> R.drawable.zyra_circle_16_pie_c_11_17
                 Champ.ZYRA_SKIN_5 -> R.drawable.zyra_circle_5
+                Champ.RENATA -> R.drawable.renata_cicle_0
+                Champ.RENATA_SKIN_1 -> R.drawable.renata_circle_1_renata
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )
