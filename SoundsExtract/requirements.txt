@@ -1,0 +1,4 @@
+firebase_admin
+ray
+pyperclip
+Pillow

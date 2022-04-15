@@ -2,7 +2,7 @@ from PIL import Image
 import os
 import ray
 
-INPUT_DIR = "./to_upload/"
+INPUT_DIR = "./newjson/"
 
 """
 
@@ -28,10 +28,15 @@ if __name__ == "__main__":
     ray.init()
     futures = []
     for champ in os.listdir(INPUT_DIR):
-        for file in os.listdir(f'D:/Modding/LOL2/{champ.capitalize()}/assets/characters/{champ}/hud/'):
-            if os.path.isfile(f'D:/Modding/LOL2/{champ.capitalize()}/assets/characters/{champ}/hud/{file}') and 'circle' in file:
+        champ = champ.split('_')[0]
+        if champ == "missfortune":
+            champ = "MissFortune"
+        else:
+            champ = champ.capitalize()
+        for file in os.listdir(f'D:/Modding/LOL/{champ}/assets/characters/{champ}/hud/'):
+            if os.path.isfile(f'D:/Modding/LOL/{champ}/assets/characters/{champ}/hud/{file}') and 'circle' in file:
                 futures.append(convert_image.remote(
-                    f'D:/Modding/LOL2/{champ.capitalize()}/assets/characters/{champ}/hud/{file}',
+                    f'D:/Modding/LOL/{champ.capitalize()}/assets/characters/{champ}/hud/{file}',
                     f'./output/{file.replace(".dds", ".webp")}'
                 ))
     ray.get(futures)

@@ -1,11 +1,18 @@
 import os
-import cdragontoolbox
-from cdragontoolbox.hashes import default_hashfile
+import sys
+sys.path.append(os.path.abspath("./src/wad_extract/CDTB"))
+from CDTB.cdragontoolbox.wad import Wad
+from CDTB.cdragontoolbox.hashes import default_hashfile
+
+"""
+This script uses  CommunityDragon/CDTB (https://github.com/CommunityDragon/CDTB)
+
+"""
 
 if __name__ == "__main__":
     for file in os.listdir("C:/Riot Games/League of Legends/Game/DATA/FINAL/Champions/"):
         file_path = f"C:/Riot Games/League of Legends/Game/DATA/FINAL/Champions/{file}"
-        wad = cdragontoolbox.Wad(
+        wad = Wad(
             file_path, hashes=default_hashfile(file_path).load())
         wad.guess_extensions()
         filename = os.path.split(file_path)[1].replace('.wad.client', '')

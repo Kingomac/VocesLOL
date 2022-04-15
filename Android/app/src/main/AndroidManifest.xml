@@ -17,7 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VocesLOL">
-        <activity android:name=".views.voices.VoicesActivity"></activity>
+        <activity android:name=".views.voices.VoicesActivity" />
         <activity android:name=".views.main.MainActivity"
             android:exported="true">
             <intent-filter>
