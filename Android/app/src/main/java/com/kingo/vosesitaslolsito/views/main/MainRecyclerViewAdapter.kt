@@ -539,6 +539,16 @@ class MainRecyclerViewAdapter(
                 Champ.RENATA_SKIN_1 -> R.drawable.renata_circle_1_renata
                 Champ.MISSFORTUNE_SKIN_31 -> R.drawable.missfortune_circle_31_pie_c_12_6
                 Champ.PYKE_SKIN_44 -> R.drawable.pyke_circle_44_pie_c_12_6
+                Champ.AATROX_SKIN_21 -> R.drawable.aatrox_circle_21_pie_c_12_8
+                Champ.BELVETH -> R.drawable.belveth_circle_0_belveth
+                Champ.KAYLE_SKIN_42 -> R.drawable.kayle_circle_42_lvl_11_pie_c_12_8
+                Champ.LEONA_SKIN_34 -> R.drawable.leona_circle_34_pie_c_12_9
+                Champ.SEJUANI_SKIN_26 -> R.drawable.sejuani_circle_26_pie_c_12_8
+                Champ.SENNA_SKIN_26 -> R.drawable.senna_circle_26_pie_c_12_8
+                Champ.SIVIR_SKIN_43 -> R.drawable.sivir_circle_43_pie_c_12_8
+                Champ.TWITCH_SKIN_45 -> R.drawable.twitch_circle_45_pie_c_12_10
+                Champ.YASUO_SKIN_45 -> R.drawable.yasuo_circle_45_pie_c_12_8
+                Champ.NILAH -> R.drawable.nilah
                 else -> R.drawable.ic_launcher_foreground
             }, 0, 0
         )

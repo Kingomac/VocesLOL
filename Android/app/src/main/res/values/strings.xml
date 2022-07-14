@@ -495,4 +495,14 @@
     <string name="renata_skin_1">Almirante Glasc</string>
     <string name="missfortune_skin_31">Miss Fortune conejo de batalla</string>
     <string name="pyke_skin_44">Pyke guerrero de la ceniza</string>
+    <string name="aatrox_skin_21">Aatrox eclipse lunar</string>
+    <string name="belveth">Belveth</string>
+    <string name="leona_skin_34">Leona sola ante el peligro</string>
+    <string name="kayle_skin_42">Kayle devorasoles</string>
+    <string name="sejuani_skin_26">Sejuani eclipse solar</string>
+    <string name="senna_skin_26">Senna eclipse lunar</string>
+    <string name="sivir_skin_43">Sivir eclipse solar</string>
+    <string name="twitch_skin_45">Twitch solo ante el peligro</string>
+    <string name="yasuo_skin_45">Yasuo lobo de mar</string>
+    <string name="nilah">Nilah</string>
 </resources>

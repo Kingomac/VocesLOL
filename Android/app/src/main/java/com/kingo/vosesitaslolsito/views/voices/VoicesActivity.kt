@@ -61,5 +61,5 @@ class VoicesActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean = true
+    override fun onCreateOptionsMenu(menu: Menu): Boolean = true
 }

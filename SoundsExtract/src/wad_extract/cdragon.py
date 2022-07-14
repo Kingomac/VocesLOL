@@ -1,8 +1,9 @@
 import os
 import sys
 sys.path.append(os.path.abspath("./src/wad_extract/CDTB"))
-from CDTB.cdragontoolbox.wad import Wad
 from CDTB.cdragontoolbox.hashes import default_hashfile
+from CDTB.cdragontoolbox.wad import Wad
+
 
 """
 This script uses  CommunityDragon/CDTB (https://github.com/CommunityDragon/CDTB)
@@ -23,7 +24,7 @@ if __name__ == "__main__":
                 continue
             if i.path.startswith("assets/sounds") or i.path.startswith(f"data/characters/{champ_name}/skins") or i.path.startswith(f"assets/characters/{champ_name}/hud"):
                 filtered_files.append(i)
-                print(i.path)
+                # print(i.path)
         print(filename)
         wad.files = filtered_files
         wad.extract(f"D:/Modding/LOL/{filename}", overwrite=False)

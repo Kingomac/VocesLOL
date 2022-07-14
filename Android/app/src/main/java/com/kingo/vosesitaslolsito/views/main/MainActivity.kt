@@ -44,9 +44,9 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerview.adapter = adapter
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_search, menu)
-        val item = menu?.findItem(R.id.search_action)
+        val item = menu.findItem(R.id.search_action)
         val searchView = item?.actionView as androidx.appcompat.widget.SearchView
         searchView.setOnQueryTextListener(object: androidx.appcompat.widget.SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
