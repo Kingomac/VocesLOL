@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Vosesitas_del_Lolsito.iml" filepath="$PROJECT_DIR$/.idea/modules/Vosesitas_del_Lolsito.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vosesitas_del_Lolsito.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vosesitas_del_Lolsito.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vosesitas_del_Lolsito.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vosesitas_del_Lolsito.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vosesitas_del_Lolsito.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vosesitas_del_Lolsito.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vosesitas_del_Lolsito.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vosesitas_del_Lolsito.app.unitTest.iml" />
     </modules>
   </component>
 </project>

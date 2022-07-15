@@ -34,11 +34,15 @@ class MainActivity : AppCompatActivity() {
             Manifest.permission.INTERNET, Manifest.permission.ACCESS_NETWORK_STATE,
             Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE))
         binding.recyclerview.layoutManager = GridLayoutManager(this, 3)
-        adapter = MainRecyclerViewAdapter(Champ.values(), applicationContext)
+        val champs: Array<String>;
+        resources.openRawResource(resources.getIdentifier("champ_list", "raw", packageName)).apply {
+            champs = this.readBytes().toString(Charsets.UTF_8).lines().toTypedArray()
+        }.close()
+        adapter = MainRecyclerViewAdapter(champs, applicationContext)
         adapter.setOnClickListener {
             val c = adapter.filteredChamps[binding.recyclerview.getChildAdapterPosition(it)]
             val intent = Intent(this, VoicesActivity::class.java)
-            intent.putExtra("champ", c.name.lowercase())
+            intent.putExtra("champ", c.lowercase())
             startActivity(intent)
         }
         binding.recyclerview.adapter = adapter
