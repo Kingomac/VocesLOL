@@ -7,7 +7,9 @@ import android.view.Menu
 import android.view.MenuItem
 import com.google.android.material.tabs.TabLayoutMediator
 import com.kingo.vosesitaslolsito.databinding.ActivityVoicesBinding
+import com.kingo.vosesitaslolsito.util.ExprFileReader
 import com.kingo.vosesitaslolsito.util.JsonLinksParser
+import com.kingo.vosesitaslolsito.util.SoundNamer
 import com.kingo.vosesitaslolsito.util.SoundsData
 import java.io.InputStream
 
@@ -33,13 +35,7 @@ class VoicesActivity : AppCompatActivity() {
         } catch (e: Exception) {
             "Lol no tiene bugs"
         }
-        val inputStream: InputStream = resources.openRawResource(
-            resources.getIdentifier(
-                champ.lowercase(),
-                "raw",
-                packageName
-            )
-        )
+        val inputStream = assets.open("skins/${champ.lowercase()}.json")
         val buffered = inputStream.bufferedReader()
         val urls: Array<SoundsData> = JsonLinksParser.parseToArray(buffered.readText())
         val adapter = SoundsViewPagerAdapter(this, urls, champ)
@@ -62,4 +58,9 @@ class VoicesActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean = true
+
+    override fun onStart() {
+        super.onStart()
+        //SoundNamer.subExpr = ExprFileReader.readAll(assets.open(""))
+    }
 }

@@ -12,6 +12,8 @@ import com.kingo.vosesitaslolsito.util.Champ
 import com.kingo.vosesitaslolsito.R
 import com.kingo.vosesitaslolsito.views.voices.VoicesActivity
 import com.kingo.vosesitaslolsito.databinding.ActivityMainBinding
+import com.kingo.vosesitaslolsito.util.ExprFileReader
+import com.kingo.vosesitaslolsito.util.SoundNamer
 
 class MainActivity : AppCompatActivity() {
 
@@ -35,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE))
         binding.recyclerview.layoutManager = GridLayoutManager(this, 3)
         val champs: Array<String>;
-        resources.openRawResource(resources.getIdentifier("champ_list", "raw", packageName)).apply {
+        assets.open("champ_list.txt").apply {
             champs = this.readBytes().toString(Charsets.UTF_8).lines().toTypedArray()
         }.close()
         adapter = MainRecyclerViewAdapter(champs, applicationContext)
@@ -46,6 +48,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.recyclerview.adapter = adapter
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -65,4 +68,10 @@ class MainActivity : AppCompatActivity() {
         })
         return super.onCreateOptionsMenu(menu)
     }
+
+    override fun onStart() {
+        super.onStart()
+        SoundNamer.generalExpr = ExprFileReader.readAll(assets.open("generalExpr.csv"))
+    }
+    
 }

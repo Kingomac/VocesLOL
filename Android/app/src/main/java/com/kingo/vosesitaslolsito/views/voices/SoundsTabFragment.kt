@@ -22,6 +22,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
 import com.kingo.vosesitaslolsito.R
 import com.kingo.vosesitaslolsito.databinding.FragmentSoundsTabBinding
+import com.kingo.vosesitaslolsito.util.SoundNamer
 import java.io.File
 import java.net.URLDecoder
 
@@ -59,7 +60,7 @@ class SoundsTabFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentSoundsTabBinding.inflate(layoutInflater)
         return binding.root
     }
@@ -74,13 +75,19 @@ class SoundsTabFragment : Fragment() {
             val champ = getString(SoundsViewPagerAdapter.ARG_CHAMP)
             links?.forEach { url ->
                 val btn = Button(context)
-                btn.text = URLDecoder.decode(
+                /*btn.text = URLDecoder.decode(
                     getFileNameWithoutExtension(url),
                     java.nio.charset.StandardCharsets.UTF_8.toString()
+                )*/
+                val defName = URLDecoder.decode(
+                    getFileNameWithoutExtension(url),
+                    Charsets.UTF_8.toString()
                 )
+                btn.text = SoundNamer.rename(defName)
+                Log.i("SoundNamer", "Old name: $defName | New Name: ${btn.text}")
                 val file = File(SOUNDS_PATH?.path, "/$champ/${getFileNameWithExtension(url)}")
                 if (file.exists()) paintButtonAsDownloaded(btn)
-                btn.setOnClickListener { _ ->
+                btn.setOnClickListener {
                     if (file.exists()) {
                         Log.i("PLAY", "File exists")
                         play(Uri.fromFile(file))
