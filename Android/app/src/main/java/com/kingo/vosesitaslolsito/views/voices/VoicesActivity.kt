@@ -16,6 +16,13 @@ import java.io.InputStream
 class VoicesActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityVoicesBinding
+    private val champ: String by lazy {
+        try {
+            intent.getStringExtra("champ")!!
+        } catch (e: Exception) {
+            throw Exception("Champion not found")
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,11 +32,6 @@ class VoicesActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val champ: String = try {
-            intent.getStringExtra("champ").toString()
-        } catch (e: Exception) {
-            throw Exception("Cagaaaaaaaaaaste")
-        }
         title = try {
             applicationContext.resources.getString(applicationContext.resources.getIdentifier(champ.lowercase(), "string", packageName))
         } catch (e: Exception) {
@@ -61,6 +63,10 @@ class VoicesActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        //SoundNamer.subExpr = ExprFileReader.readAll(assets.open(""))
+        SoundNamer.subExpr = try {
+            ExprFileReader.readAll(assets.open("subexpressions/${champ.split("_")[0]}.csv"))
+        } catch (e: Exception) {
+            mapOf()
+        }
     }
 }

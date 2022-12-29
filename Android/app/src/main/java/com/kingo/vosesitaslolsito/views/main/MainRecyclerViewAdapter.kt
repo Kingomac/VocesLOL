@@ -9,7 +9,6 @@ import android.widget.Filter
 import android.widget.Filterable
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.kingo.vosesitaslolsito.util.Champ
 import com.kingo.vosesitaslolsito.R
 
 class MainRecyclerViewAdapter(
